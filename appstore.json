@@ -1,0 +1,143 @@
+{
+  "categories": [
+    {"id": "all", "name": "全部应用"},
+    {"id": "map", "name": "地图导航"},
+    {"id": "media", "name": "影音播放"},
+    {"id": "video", "name": "影视浏览"},
+    {"id": "screen", "name": "互联投屏"},
+    {"id": "tools", "name": "实用工具"},
+    {"id": "gac", "name": "GAC插件"},
+    {"id": "other", "name": "其它应用"},
+    {"id": "test", "name": "测试专区"}
+  ],
+  "apps": [
+    {
+      "name": "当贝市场",
+      "version": "v4.2.8",
+      "description": "TV端应用商店",
+      "category": "tools",
+      "icon": "icons/dangbei.png",
+      "downloadUrl": "https://app.ahcjzs.cn/download/dangbei.apk"
+    },
+    {
+      "name": "沙发管家",
+      "version": "v5.1.2",
+      "description": "TV端应用管理",
+      "category": "tools",
+      "icon": "icons/shafa.png",
+      "downloadUrl": "https://app.ahcjzs.cn/download/shafa.apk"
+    },
+    {
+      "name": "奇珀市场",
+      "version": "v3.0.1",
+      "description": "智能电视应用市场",
+      "category": "tools",
+      "icon": "icons/qipo.png",
+      "downloadUrl": "https://app.ahcjzs.cn/download/qipo.apk"
+    },
+    {
+      "name": "TVBox",
+      "version": "v1.0.5",
+      "description": "免费看全网影视",
+      "category": "media",
+      "icon": "icons/tvbox.png",
+      "downloadUrl": "https://app.ahcjzs.cn/download/tvbox.apk"
+    },
+    {
+      "name": "Kodi",
+      "version": "v19.4",
+      "description": "强大媒体播放器",
+      "category": "media",
+      "icon": "icons/kodi.png",
+      "downloadUrl": "https://app.ahcjzs.cn/download/kodi.apk"
+    },
+    {
+      "name": "影视仓",
+      "version": "v2.1.0",
+      "description": "免费看全网影视",
+      "category": "video",
+      "icon": "icons/yingshicang.png",
+      "downloadUrl": "https://app.ahcjzs.cn/download/yingshicang.apk"
+    },
+    {
+      "name": "优酷HD",
+      "version": "v6.2.0",
+      "description": "优酷视频TV版",
+      "category": "video",
+      "icon": "icons/youku.png",
+      "downloadUrl": "https://app.ahcjzs.cn/download/youku.apk"
+    },
+    {
+      "name": "芒果TV",
+      "version": "v6.5.2",
+      "description": "芒果TV电视版",
+      "category": "video",
+      "icon": "icons/mangguo.png",
+      "downloadUrl": "https://app.ahcjzs.cn/download/mangguo.apk"
+    },
+    {
+      "name": "云视听极光",
+      "version": "v8.0.1",
+      "description": "腾讯视频TV版",
+      "category": "video",
+      "icon": "icons/yunshiting.png",
+      "downloadUrl": "https://app.ahcjzs.cn/download/yunshiting.apk"
+    },
+    {
+      "name": "乐播投屏",
+      "version": "v5.0.1",
+      "description": "手机投屏到电视",
+      "category": "screen",
+      "icon": "icons/lebo.png",
+      "downloadUrl": "https://app.ahcjzs.cn/download/lebo.apk"
+    },
+    {
+      "name": "悟空遥控器",
+      "version": "v3.2.0",
+      "description": "手机当遥控器",
+      "category": "screen",
+      "icon": "icons/wukong.png",
+      "downloadUrl": "https://app.ahcjzs.cn/download/wukong.apk"
+    },
+    {
+      "name": "高德地图",
+      "version": "v8.1.0",
+      "description": "高德地图TV版",
+      "category": "map",
+      "icon": "icons/gaode.png",
+      "downloadUrl": "https://app.ahcjzs.cn/download/gaode.apk"
+    },
+    {
+      "name": "百度地图",
+      "version": "v5.2.0",
+      "description": "百度地图TV版",
+      "category": "map",
+      "icon": "icons/baidu.png",
+      "downloadUrl": "https://app.ahcjzs.cn/download/baidu.apk"
+    },
+    {
+      "name": "MT管理器",
+      "version": "v2.14",
+      "description": "文件管理器APK编辑",
+      "category": "other",
+      "icon": "icons/mt.png",
+      "downloadUrl": "https://app.ahcjzs.cn/download/mt.apk"
+    },
+    {
+      "name": "当贝桌面",
+      "version": "v2.3.1",
+      "description": "极简TV桌面",
+      "category": "tools",
+      "icon": "icons/dangbei_desktop.png",
+      "downloadUrl": "https://app.ahcjzs.cn/download/dangbei_desktop.apk"
+    },
+    {
+      "name": "IPTV直播",
+      "version": "v3.0",
+      "description": "免费IPTV直播源",
+      "category": "media",
+      "icon": "icons/iptv.png",
+      "downloadUrl": "https://app.ahcjzs.cn/download/iptv.apk"
+    }
+  ]
+}

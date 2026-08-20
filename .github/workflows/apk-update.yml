@@ -21,16 +21,16 @@ jobs:
       - name: 下载 YYGJ 最新 APK
         run: |
           mkdir -p apk
-          curl -sL --fail -o apk/gongqian_appstore_signed.apk \
+          curl -sL --fail -o "apk/冥城应用商店.apk" \
             "https://github.com/NJS98-UI/YYGJ/releases/latest/download/gongqian_appstore_signed.apk"
-          echo "APK 大小: $(du -h apk/gongqian_appstore_signed.apk | cut -f1)"
+          echo "APK 大小: $(du -h 'apk/冥城应用商店.apk' | cut -f1)"
 
       - name: 提交变更
         run: |
           git config user.name "MCity Bot"
           git config user.email "dev@mcity.com"
           if git status --porcelain | grep -q "apk/"; then
-            git add apk/gongqian_appstore_signed.apk
+            git add "apk/冥城应用商店.apk"
             git commit -m "sync: 更新最新 APK $(TZ=Asia/Shanghai date +%Y-%m-%d\ %H:%M)"
             git push origin main
             echo "已同步"

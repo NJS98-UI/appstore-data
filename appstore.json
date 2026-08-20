@@ -1,143 +1,85 @@
 {
+  "version": "1.0",
+  "updateTime": "2026-08-20",
   "categories": [
-    {"id": "all", "name": "全部应用"},
-    {"id": "map", "name": "地图导航"},
-    {"id": "media", "name": "影音播放"},
-    {"id": "video", "name": "影视浏览"},
-    {"id": "screen", "name": "互联投屏"},
-    {"id": "tools", "name": "实用工具"},
-    {"id": "gac", "name": "GAC插件"},
-    {"id": "other", "name": "其它应用"},
-    {"id": "test", "name": "测试专区"}
-  ],
-  "apps": [
     {
-      "name": "当贝市场",
-      "version": "v4.2.8",
-      "description": "TV端应用商店",
-      "category": "tools",
-      "icon": "icons/dangbei.png",
-      "downloadUrl": "https://app.ahcjzs.cn/download/dangbei.apk"
+      "name": "导航地图",
+      "apps": [
+        {"name": "高德地图车机版", "version": "9.5.0", "description": "高德地图车机版，支持在线导航", "size": "147MB", "icon": "icons/gaode_auto.png", "url": "https://mapdownload.autonavi.com/apps/auto/manual/V950/Auto_9.5.0.600013_release_signed.apk"},
+        {"name": "高德地图Auto", "version": "9.1.0", "description": "高德地图Auto版", "size": "128MB", "icon": "icons/gaode_auto2.png", "url": ""},
+        {"name": "高德地图手机版魔改", "version": "v16.08", "description": "高德地图手机版魔改版", "size": "163MB", "icon": "icons/gaode_phone.png", "url": ""},
+        {"name": "百度地图汽车版", "version": "V21", "description": "百度地图汽车版", "size": "154MB", "icon": "icons/baidu_auto.png", "url": ""},
+        {"name": "腾讯智驾地图", "version": "9.1.0.415", "description": "腾讯智驾地图", "size": "109MB", "icon": "icons/tencent_map.png", "url": ""},
+        {"name": "红绿灯领航", "version": "v2.6.1", "description": "红绿灯领航助手", "size": "6MB", "icon": "icons/honglvdeng.png", "url": ""},
+        {"name": "巡航红绿灯", "version": "v2.2.1", "description": "巡航红绿灯助手", "size": "5MB", "icon": "icons/xunhang_hld.png", "url": ""}
+      ]
     },
     {
-      "name": "沙发管家",
-      "version": "v5.1.2",
-      "description": "TV端应用管理",
-      "category": "tools",
-      "icon": "icons/shafa.png",
-      "downloadUrl": "https://app.ahcjzs.cn/download/shafa.apk"
+      "name": "影音视听",
+      "apps": [
+        {"name": "QQ音乐车机版", "version": "v3.9.0.5", "description": "QQ音乐车机版", "size": "82MB", "icon": "icons/qqmusic.png", "url": ""},
+        {"name": "酷狗音乐车机版", "version": "v6.1.1", "description": "酷狗音乐车机版", "size": "104MB", "icon": "icons/kugou.png", "url": ""},
+        {"name": "酷狗音乐车机版", "version": "V5.0.5", "description": "酷狗音乐车机版旧版", "size": "70MB", "icon": "icons/kugou2.png", "url": ""},
+        {"name": "酷我音乐车机版", "version": "v9.0", "description": "酷我音乐车机版", "size": "85MB", "icon": "icons/kuwo.png", "url": ""},
+        {"name": "酷我音乐车机版", "version": "v7.3.9", "description": "酷我音乐车机版旧版", "size": "90MB", "icon": "icons/kuwo2.png", "url": ""},
+        {"name": "网易云音乐车机版", "version": "最新版", "description": "网易云音乐车机版", "size": "6MB", "icon": "icons/wangyiyun.png", "url": ""},
+        {"name": "汽水音乐车机版", "version": "v1.0.10", "description": "字节跳动汽水音乐车机版", "size": "45MB", "icon": "icons/qishui.png", "url": ""},
+        {"name": "MxPlayer播放器", "version": "v1.59.2", "description": "强大的视频播放器", "size": "103MB", "icon": "icons/mxplayer.png", "url": ""},
+        {"name": "腾讯视频TV版", "version": "v2.5.0", "description": "腾讯视频TV版", "size": "17MB", "icon": "icons/tencent_video.png", "url": ""},
+        {"name": "抖音带放映厅版", "version": "最新版", "description": "抖音带放映厅版", "size": "31MB", "icon": "icons/douyin.png", "url": ""},
+        {"name": "影视仓TV版", "version": "v6.1.9", "description": "免费看全网影视", "size": "35MB", "icon": "icons/yingshicang.png", "url": ""},
+        {"name": "TVbox影视", "version": "v4.0.7", "description": "开源影视聚合播放器", "size": "32MB", "icon": "icons/tvbox.png", "url": ""},
+        {"name": "车鱼视听", "version": "v3.20.1", "description": "车鱼视听车机版", "size": "40MB", "icon": "icons/cheyu.png", "url": ""},
+        {"name": "飞牛TV", "version": "v1.2.10", "description": "飞牛TV影视播放", "size": "47MB", "icon": "icons/feiniu.png", "url": ""},
+        {"name": "Apple Music", "version": "v4.9.5", "description": "Apple Music安卓版", "size": "136MB", "icon": "icons/apple_music.png", "url": ""},
+        {"name": "红饭TV车机版", "version": "最新版", "description": "红饭TV车机版", "size": "38MB", "icon": "icons/hongfan.png", "url": ""},
+        {"name": "OK影视", "version": "v3.6.0", "description": "OK影视聚合播放", "size": "147MB", "icon": "icons/ok_ys.png", "url": ""}
+      ]
     },
     {
-      "name": "奇珀市场",
-      "version": "v3.0.1",
-      "description": "智能电视应用市场",
-      "category": "tools",
-      "icon": "icons/qipo.png",
-      "downloadUrl": "https://app.ahcjzs.cn/download/qipo.apk"
+      "name": "互联投屏",
+      "apps": [
+        {"name": "小米CarWith", "version": "v3.8.4", "description": "小米CarWith手机车机互联", "size": "65MB", "icon": "icons/carwith.png", "url": ""},
+        {"name": "CarLife", "version": "v4.0.0", "description": "百度CarLife互联", "size": "5MB", "icon": "icons/carlife.png", "url": ""},
+        {"name": "米家小米智能家居", "version": "最新版", "description": "米家智能家居控制", "size": "131MB", "icon": "icons/mijia.png", "url": ""},
+        {"name": "水果投屏助手", "version": "最新版", "description": "水果投屏助手", "size": "32MB", "icon": "icons/shuiguo_tp.png", "url": ""}
+      ]
     },
     {
-      "name": "TVBox",
-      "version": "v1.0.5",
-      "description": "免费看全网影视",
-      "category": "media",
-      "icon": "icons/tvbox.png",
-      "downloadUrl": "https://app.ahcjzs.cn/download/tvbox.apk"
+      "name": "网盘工具",
+      "apps": [
+        {"name": "夸克网盘TV版", "version": "v2.8", "description": "夸克网盘TV版", "size": "8MB", "icon": "icons/quark_tv.png", "url": ""},
+        {"name": "夸克网盘手机版", "version": "v10.2", "description": "夸克网盘手机版", "size": "134MB", "icon": "icons/quark_phone.png", "url": ""},
+        {"name": "迅雷云盘TV版", "version": "v3.0.10", "description": "迅雷云盘TV版", "size": "87MB", "icon": "icons/xunlei.png", "url": ""},
+        {"name": "123云盘手机版", "version": "v3.2.16", "description": "123云盘手机版", "size": "121MB", "icon": "icons/123pan.png", "url": "https://app.123pan.com/app/android/v1/app_release_v3.2.16_3231_signed.apk"}
+      ]
     },
     {
-      "name": "Kodi",
-      "version": "v19.4",
-      "description": "强大媒体播放器",
-      "category": "media",
-      "icon": "icons/kodi.png",
-      "downloadUrl": "https://app.ahcjzs.cn/download/kodi.apk"
+      "name": "车机管理",
+      "apps": [
+        {"name": "ES文件管理器", "version": "最新版", "description": "ES文件浏览器", "size": "41MB", "icon": "icons/es_file.png", "url": ""},
+        {"name": "EF文件管理器", "version": "最新版", "description": "EF文件管理器", "size": "20MB", "icon": "icons/ef_file.png", "url": ""},
+        {"name": "应用管家", "version": "v1.8.3", "description": "应用管家", "size": "15MB", "icon": "icons/app_manager.png", "url": ""},
+        {"name": "应用管家", "version": "v1.8.2", "description": "应用管家旧版", "size": "15MB", "icon": "icons/app_manager2.png", "url": ""},
+        {"name": "权限狗", "version": "v0.1.0", "description": "权限管理工具", "size": "1MB", "icon": "icons/quanquan_gou.png", "url": ""},
+        {"name": "小黑屋", "version": "v1.9.18", "description": "应用冻结工具", "size": "1MB", "icon": "icons/xiaoheiwu.png", "url": ""},
+        {"name": "安卓设置快捷方式", "version": "最新版", "description": "安卓设置快捷方式", "size": "1MB", "icon": "icons/android_settings.png", "url": ""}
+      ]
     },
     {
-      "name": "影视仓",
-      "version": "v2.1.0",
-      "description": "免费看全网影视",
-      "category": "video",
-      "icon": "icons/yingshicang.png",
-      "downloadUrl": "https://app.ahcjzs.cn/download/yingshicang.apk"
+      "name": "输入法",
+      "apps": [
+        {"name": "豆包输入法", "version": "v1.2.0", "description": "字节跳动豆包输入法", "size": "143MB", "icon": "icons/doubao_input.png", "url": ""},
+        {"name": "讯飞输入法", "version": "v15.0.9", "description": "讯飞输入法", "size": "66MB", "icon": "icons/xunfei_input.png", "url": ""}
+      ]
     },
     {
-      "name": "优酷HD",
-      "version": "v6.2.0",
-      "description": "优酷视频TV版",
-      "category": "video",
-      "icon": "icons/youku.png",
-      "downloadUrl": "https://app.ahcjzs.cn/download/youku.apk"
-    },
-    {
-      "name": "芒果TV",
-      "version": "v6.5.2",
-      "description": "芒果TV电视版",
-      "category": "video",
-      "icon": "icons/mangguo.png",
-      "downloadUrl": "https://app.ahcjzs.cn/download/mangguo.apk"
-    },
-    {
-      "name": "云视听极光",
-      "version": "v8.0.1",
-      "description": "腾讯视频TV版",
-      "category": "video",
-      "icon": "icons/yunshiting.png",
-      "downloadUrl": "https://app.ahcjzs.cn/download/yunshiting.apk"
-    },
-    {
-      "name": "乐播投屏",
-      "version": "v5.0.1",
-      "description": "手机投屏到电视",
-      "category": "screen",
-      "icon": "icons/lebo.png",
-      "downloadUrl": "https://app.ahcjzs.cn/download/lebo.apk"
-    },
-    {
-      "name": "悟空遥控器",
-      "version": "v3.2.0",
-      "description": "手机当遥控器",
-      "category": "screen",
-      "icon": "icons/wukong.png",
-      "downloadUrl": "https://app.ahcjzs.cn/download/wukong.apk"
-    },
-    {
-      "name": "高德地图",
-      "version": "v8.1.0",
-      "description": "高德地图TV版",
-      "category": "map",
-      "icon": "icons/gaode.png",
-      "downloadUrl": "https://app.ahcjzs.cn/download/gaode.apk"
-    },
-    {
-      "name": "百度地图",
-      "version": "v5.2.0",
-      "description": "百度地图TV版",
-      "category": "map",
-      "icon": "icons/baidu.png",
-      "downloadUrl": "https://app.ahcjzs.cn/download/baidu.apk"
-    },
-    {
-      "name": "MT管理器",
-      "version": "v2.14",
-      "description": "文件管理器APK编辑",
-      "category": "other",
-      "icon": "icons/mt.png",
-      "downloadUrl": "https://app.ahcjzs.cn/download/mt.apk"
-    },
-    {
-      "name": "当贝桌面",
-      "version": "v2.3.1",
-      "description": "极简TV桌面",
-      "category": "tools",
-      "icon": "icons/dangbei_desktop.png",
-      "downloadUrl": "https://app.ahcjzs.cn/download/dangbei_desktop.apk"
-    },
-    {
-      "name": "IPTV直播",
-      "version": "v3.0",
-      "description": "免费IPTV直播源",
-      "category": "media",
-      "icon": "icons/iptv.png",
-      "downloadUrl": "https://app.ahcjzs.cn/download/iptv.apk"
+      "name": "其他",
+      "apps": [
+        {"name": "via浏览器", "version": "最新版", "description": "轻量级浏览器", "size": "2.62MB", "icon": "icons/via_browser.png", "url": "https://tfyk1gr3drmt1go51hcttghzdqcy.pqxz.com:20443/azshareappddms.3322.cc/ddapk/mark.via.apk?time=1787146288627&key=8e5ceab06722fcf8c1e92406b3a22a38&wsiphost=ipdbme&wsrid_tag=6a85b033_PS-KHN-01d7R77_39229-5883-s1t1787146291567&x-mamba-business-label=13487&redirect_cnt=0&ip_type=0&wshc=C&requery=0"},
+        {"name": "Chrome浏览器", "version": "最新版", "description": "谷歌Chrome浏览器", "size": "274MB", "icon": "icons/chrome.png", "url": ""},
+        {"name": "小马模拟器", "version": "v3.0.8", "description": "小马模拟器", "size": "154MB", "icon": "icons/xiaoma.png", "url": ""}
+      ]
     }
   ]
 }

@@ -192,6 +192,14 @@ def write_snapshot(data):
         print(f"保存快照失败: {e}")
 
 
+def find_fallback_icon(fname, existing):
+    base = os.path.splitext(fname)[0].lower()
+    for f in sorted(existing):
+        if f.lower().startswith(base[0]) or base.startswith(os.path.splitext(f)[0].lower()):
+            return f
+    return None
+
+
 def download_icons(data):
     import urllib.parse
     icons_dir = "icons"
@@ -224,8 +232,22 @@ def download_icons(data):
                     app["icon"] = "icons/" + fname
                     downloaded += 1
                     existing.add(fname)
+                else:
+                    # 尺寸太小，尝试用同目录下名字相近的做回退
+                    fallback = find_fallback_icon(fname, existing)
+                    if fallback:
+                        app["icon"] = "icons/" + fallback
+                        print(f"  图标回退: {fname} -> {fallback}")
+                    else:
+                        print(f"  图标下载失败(内容过小): {url}")
             except Exception as e:
-                print(f"  图标下载失败: {url} -> {e}")
+                # 404时尝试回退到同目录下名字相近的图标
+                fallback = find_fallback_icon(fname, existing)
+                if fallback:
+                    app["icon"] = "icons/" + fallback
+                    print(f"  图标回退: {fname} -> {fallback} ({e})")
+                else:
+                    print(f"  图标下载失败: {url} -> {e}")
     if downloaded > 0:
         print(f"下载新图标: {downloaded} 个")
 

@@ -1,0 +1,991 @@
+{
+  "updateTime": "",
+  "appCount": 197,
+  "apps": [
+    {
+      "name": "高德地图_官网原版",
+      "version": "V9.5.0.600013",
+      "type": "导航地图"
+    },
+    {
+      "name": "高德地图_悬浮版",
+      "version": "V9.5.0.600013",
+      "type": "导航地图"
+    },
+    {
+      "name": "高德地图_共存版",
+      "version": "V9.5.0.600013",
+      "type": "导航地图"
+    },
+    {
+      "name": "高德地图_共存版",
+      "version": "V8.5.0.600058",
+      "type": "导航地图"
+    },
+    {
+      "name": "高德地图_仪表版",
+      "version": "V7.5.0",
+      "type": "导航地图"
+    },
+    {
+      "name": "高德地图_仪表版",
+      "version": "V7.5.0",
+      "type": "导航地图"
+    },
+    {
+      "name": "高德地图_沉默版",
+      "version": "V7.1.0",
+      "type": "导航地图"
+    },
+    {
+      "name": "百度地图_V21版",
+      "version": "V21.17.2",
+      "type": "导航地图"
+    },
+    {
+      "name": "百度地图_车机版",
+      "version": "V6.0.4",
+      "type": "导航地图"
+    },
+    {
+      "name": "腾讯地图车机版",
+      "version": "V9.9.0.113",
+      "type": "导航地图"
+    },
+    {
+      "name": "领航红绿灯",
+      "version": "V2.3.0",
+      "type": "导航地图"
+    },
+    {
+      "name": "红绿灯路况",
+      "version": "V3.0.6.260323",
+      "type": "导航地图"
+    },
+    {
+      "name": "19-21款传祺GS4高德",
+      "version": "V7.5.0",
+      "type": "导航地图"
+    },
+    {
+      "name": "22款传祺GS4高德",
+      "version": "V7.5.0",
+      "type": "导航地图"
+    },
+    {
+      "name": "传祺GS4plus高德",
+      "version": "V7.5.0",
+      "type": "导航地图"
+    },
+    {
+      "name": "传祺GS3power高德",
+      "version": "V7.5.0",
+      "type": "导航地图"
+    },
+    {
+      "name": "传祺GA4plus高德",
+      "version": "V7.5.0",
+      "type": "导航地图"
+    },
+    {
+      "name": "传祺M6pro高德",
+      "version": "V7.5.0",
+      "type": "导航地图"
+    },
+    {
+      "name": "传祺M8领秀高德",
+      "version": "V7.5.0",
+      "type": "导航地图"
+    },
+    {
+      "name": "埃安Y/Splus高德",
+      "version": "V7.5.0",
+      "type": "导航地图"
+    },
+    {
+      "name": "埃安LX高德",
+      "version": "V7.5.0",
+      "type": "导航地图"
+    },
+    {
+      "name": "极狐考拉/考拉S高德",
+      "version": "V7.5.0",
+      "type": "导航地图"
+    },
+    {
+      "name": "哈弗F7X_升级高德",
+      "version": "V7.5.0",
+      "type": "导航地图"
+    },
+    {
+      "name": "24款捷途X90pro",
+      "version": "V7.5.0",
+      "type": "导航地图"
+    },
+    {
+      "name": "长城炮",
+      "version": "V7.5.0",
+      "type": "导航地图"
+    },
+    {
+      "name": "酷我音乐_方控版",
+      "version": "V4.3.1",
+      "type": "影音视听"
+    },
+    {
+      "name": "酷我音乐_破解版",
+      "version": "V6.3.2.38",
+      "type": "影音视听"
+    },
+    {
+      "name": "酷狗音乐_车机版",
+      "version": "V6.0.6",
+      "type": "影音视听"
+    },
+    {
+      "name": "酷狗音乐_方控版",
+      "version": "V3.5.5",
+      "type": "影音视听"
+    },
+    {
+      "name": "酷狗音乐_HD版",
+      "version": "V6.0.1",
+      "type": "影音视听"
+    },
+    {
+      "name": "网易云音乐_车机版",
+      "version": "V3.7.50",
+      "type": "影音视听"
+    },
+    {
+      "name": "网易云音乐_方控版",
+      "version": "V3.2.5",
+      "type": "影音视听"
+    },
+    {
+      "name": "网易云音乐_TV版",
+      "version": "V1.1.30",
+      "type": "影音视听"
+    },
+    {
+      "name": "QQ音乐_车机版",
+      "version": "V3.1.0",
+      "type": "影音视听"
+    },
+    {
+      "name": "QQ音乐_方控版",
+      "version": "V1.9.9.3",
+      "type": "影音视听"
+    },
+    {
+      "name": "QQ音乐_HD版",
+      "version": "V6.0.1",
+      "type": "影音视听"
+    },
+    {
+      "name": "汽水音乐_车机版",
+      "version": "V1.0.10",
+      "type": "影音视听"
+    },
+    {
+      "name": "汽水音乐_免会员",
+      "version": "V16.7.0",
+      "type": "影音视听"
+    },
+    {
+      "name": "汽水音乐_横屏版",
+      "version": "V1.3.0",
+      "type": "影音视听"
+    },
+    {
+      "name": "车鱼视听",
+      "version": "V3.20.1",
+      "type": "影音视听"
+    },
+    {
+      "name": "Apple Music",
+      "version": "V4.6.0",
+      "type": "影音视听"
+    },
+    {
+      "name": "清风DJ",
+      "version": "V1.1.0",
+      "type": "影音视听"
+    },
+    {
+      "name": "DJ秀",
+      "version": "V4.4.9",
+      "type": "影音视听"
+    },
+    {
+      "name": "DJ多多",
+      "version": "V5.5.22",
+      "type": "影音视听"
+    },
+    {
+      "name": "音视DJ",
+      "version": "V2.5",
+      "type": "影音视听"
+    },
+    {
+      "name": "冬瓜音乐",
+      "version": "V1.0.7",
+      "type": "影音视听"
+    },
+    {
+      "name": "落雪音乐",
+      "version": "V1.4.2",
+      "type": "影音视听"
+    },
+    {
+      "name": "懒人畅听",
+      "version": "V2.2.0",
+      "type": "影音视听"
+    },
+    {
+      "name": "畅听FM",
+      "version": "V2.3.2",
+      "type": "影音视听"
+    },
+    {
+      "name": "听友FM",
+      "version": "V1.0.7",
+      "type": "影音视听"
+    },
+    {
+      "name": "听听广播",
+      "version": "V1.9.8",
+      "type": "影音视听"
+    },
+    {
+      "name": "龙卷风收音机",
+      "version": "V4.6",
+      "type": "影音视听"
+    },
+    {
+      "name": "MyRadio收音机",
+      "version": "修改版",
+      "type": "影音视听"
+    },
+    {
+      "name": "喜马拉雅FM",
+      "version": "V3.0.1",
+      "type": "影音视听"
+    },
+    {
+      "name": "电影天堂",
+      "version": "V1.0.13",
+      "type": "影视浏览"
+    },
+    {
+      "name": "喵影视TV",
+      "version": "V3.8.0",
+      "type": "影视浏览"
+    },
+    {
+      "name": "喵影视TV",
+      "version": "V3.8.0",
+      "type": "影视浏览"
+    },
+    {
+      "name": "小苹果影视盒子",
+      "version": "V1.6.0",
+      "type": "影视浏览"
+    },
+    {
+      "name": "南瓜电影HD",
+      "version": "V4.1.4",
+      "type": "影视浏览"
+    },
+    {
+      "name": "CIBN酷喵",
+      "version": "V12.2.1.2",
+      "type": "影视浏览"
+    },
+    {
+      "name": "CIBN酷喵少儿",
+      "version": "V5.8.3.5",
+      "type": "影视浏览"
+    },
+    {
+      "name": "爱奇艺HD",
+      "version": "V7.9.1",
+      "type": "影视浏览"
+    },
+    {
+      "name": "爱奇艺Pad",
+      "version": "V15.9.0",
+      "type": "影视浏览"
+    },
+    {
+      "name": "爱奇艺_车机版",
+      "version": "V2.2.7",
+      "type": "影视浏览"
+    },
+    {
+      "name": "银河奇异果",
+      "version": "V14.11.0",
+      "type": "影视浏览"
+    },
+    {
+      "name": "奇异果儿童版",
+      "version": "V5.1.1",
+      "type": "影视浏览"
+    },
+    {
+      "name": "腾讯视频HD",
+      "version": "V3.4.3",
+      "type": "影视浏览"
+    },
+    {
+      "name": "腾讯视频_车机版",
+      "version": "V2.0.0.1166",
+      "type": "影视浏览"
+    },
+    {
+      "name": "云视听极光",
+      "version": "V16.9.0",
+      "type": "影视浏览"
+    },
+    {
+      "name": "哔哩哔哩",
+      "version": "V2.7.0",
+      "type": "影视浏览"
+    },
+    {
+      "name": "哔哩哔哩HD",
+      "version": "V2.0.1",
+      "type": "影视浏览"
+    },
+    {
+      "name": "云视听小电视",
+      "version": "V1.7.8",
+      "type": "影视浏览"
+    },
+    {
+      "name": "搜狐视频HD",
+      "version": "V10.0.75",
+      "type": "影视浏览"
+    },
+    {
+      "name": "咪咕视频",
+      "version": "V6.2.86",
+      "type": "影视浏览"
+    },
+    {
+      "name": "央视频HD",
+      "version": "V1.1.1",
+      "type": "影视浏览"
+    },
+    {
+      "name": "央视频TV",
+      "version": "V7.0.0",
+      "type": "影视浏览"
+    },
+    {
+      "name": "抖音车机版",
+      "version": "V9.9.2002",
+      "type": "影视浏览"
+    },
+    {
+      "name": "快手横屏版",
+      "version": "V6.11.0",
+      "type": "影视浏览"
+    },
+    {
+      "name": "抖音短剧",
+      "version": "V4.0.3",
+      "type": "影视浏览"
+    },
+    {
+      "name": "红果免费短剧",
+      "version": "V7.2.1.33",
+      "type": "影视浏览"
+    },
+    {
+      "name": "MX 视频播放器",
+      "version": "V2.13.4",
+      "type": "影视浏览"
+    },
+    {
+      "name": "VLC 视频播放器",
+      "version": "V3.7.1",
+      "type": "影视浏览"
+    },
+    {
+      "name": "myplayer 视频播放器",
+      "version": "V1.3.2",
+      "type": "影视浏览"
+    },
+    {
+      "name": "直播大全",
+      "version": "V1.4.3",
+      "type": "影视浏览"
+    },
+    {
+      "name": "WebView 电视",
+      "version": "V2.1.1",
+      "type": "影视浏览"
+    },
+    {
+      "name": "DongYuTvWeb",
+      "version": "V1.0.6.0",
+      "type": "影视浏览"
+    },
+    {
+      "name": "千寻",
+      "version": "V1.1.2",
+      "type": "影视浏览"
+    },
+    {
+      "name": "小飞电视",
+      "version": "V2.6.1",
+      "type": "影视浏览"
+    },
+    {
+      "name": "央视影音HD",
+      "version": "V7.9.3",
+      "type": "影视浏览"
+    },
+    {
+      "name": "Dilkan",
+      "version": "V2.1.6",
+      "type": "影视浏览"
+    },
+    {
+      "name": "百度CarLife_修改版",
+      "version": "V3.3.4",
+      "type": "手车互联"
+    },
+    {
+      "name": "百度CarLife_最新版",
+      "version": "V2025.09.23",
+      "type": "手车互联"
+    },
+    {
+      "name": "亿连手机互联",
+      "version": "V6.7",
+      "type": "手车互联"
+    },
+    {
+      "name": "AutoKit_车连易",
+      "version": "官方版",
+      "type": "手车互联"
+    },
+    {
+      "name": "AutoKit_车连易",
+      "version": "公签版",
+      "type": "手车互联"
+    },
+    {
+      "name": "AutoPlay_君用",
+      "version": "官方版",
+      "type": "手车互联"
+    },
+    {
+      "name": "AutoPlay_君用",
+      "version": "公签版",
+      "type": "手车互联"
+    },
+    {
+      "name": "乐播投屏",
+      "version": "V8.16.32",
+      "type": "手车互联"
+    },
+    {
+      "name": "橙子投屏",
+      "version": "V1.4.0",
+      "type": "手车互联"
+    },
+    {
+      "name": "蓝莓投屏",
+      "version": "V3.4.10",
+      "type": "手车互联"
+    },
+    {
+      "name": "当贝投屏",
+      "version": "V2.4.8",
+      "type": "手车互联"
+    },
+    {
+      "name": "易控车机版",
+      "version": "V1.6.10",
+      "type": "手车互联"
+    },
+    {
+      "name": "易控公签版",
+      "version": "公签版",
+      "type": "手车互联"
+    },
+    {
+      "name": "CarPlus车机版",
+      "version": "V3.2.1",
+      "type": "手车互联"
+    },
+    {
+      "name": "CarPlus公签版",
+      "version": "V2.6.6",
+      "type": "手车互联"
+    },
+    {
+      "name": "ICCOA Carlink",
+      "version": "V1.2.10",
+      "type": "手车互联"
+    },
+    {
+      "name": "ICCOA Carlink",
+      "version": "V1.0",
+      "type": "手车互联"
+    },
+    {
+      "name": "ICCOA Carlink",
+      "version": "V1.0",
+      "type": "手车互联"
+    },
+    {
+      "name": "阿辉虚拟键",
+      "version": "二改版",
+      "type": "实用工具"
+    },
+    {
+      "name": "简悬浮",
+      "version": "V1.7.5",
+      "type": "实用工具"
+    },
+    {
+      "name": "一键清理",
+      "version": "公签版",
+      "type": "实用工具"
+    },
+    {
+      "name": "一键清理",
+      "version": "通用版",
+      "type": "实用工具"
+    },
+    {
+      "name": "仪表边距调整",
+      "version": "V1.0",
+      "type": "实用工具"
+    },
+    {
+      "name": "一键重启",
+      "version": "V1.0",
+      "type": "实用工具"
+    },
+    {
+      "name": "甲壳虫ADB助手",
+      "version": "V1.3.1",
+      "type": "实用工具"
+    },
+    {
+      "name": "权限狗",
+      "version": "V1.0.45",
+      "type": "实用工具"
+    },
+    {
+      "name": "无障碍管理器",
+      "version": "V12",
+      "type": "实用工具"
+    },
+    {
+      "name": "系统界面调节器",
+      "version": "V348",
+      "type": "实用工具"
+    },
+    {
+      "name": "Shizuku",
+      "version": "V13.5.5",
+      "type": "实用工具"
+    },
+    {
+      "name": "侧边栏",
+      "version": "V1.0",
+      "type": "实用工具"
+    },
+    {
+      "name": "SideBar双边栏",
+      "version": "V1.0",
+      "type": "实用工具"
+    },
+    {
+      "name": "音乐频谱",
+      "version": "阿辉汉化版",
+      "type": "实用工具"
+    },
+    {
+      "name": "Muviz Edge_音乐律动",
+      "version": "V1.7.3.0",
+      "type": "实用工具"
+    },
+    {
+      "name": "按键映射器",
+      "version": "V2.6.0",
+      "type": "实用工具"
+    },
+    {
+      "name": "启动项管理器",
+      "version": "V3.7",
+      "type": "实用工具"
+    },
+    {
+      "name": "方向控制",
+      "version": "V22",
+      "type": "实用工具"
+    },
+    {
+      "name": "强制横屏",
+      "version": "V2.9.0",
+      "type": "实用工具"
+    },
+    {
+      "name": "横屏旋转",
+      "version": "V6.0.0",
+      "type": "实用工具"
+    },
+    {
+      "name": "WIFI",
+      "version": "V1.0",
+      "type": "实用工具"
+    },
+    {
+      "name": "指南针",
+      "version": "V2.4.0",
+      "type": "实用工具"
+    },
+    {
+      "name": "包名查看器",
+      "version": "V2.0",
+      "type": "实用工具"
+    },
+    {
+      "name": "网速流量监测",
+      "version": "V1.7.1",
+      "type": "实用工具"
+    },
+    {
+      "name": "ProxyPin",
+      "version": "V1.2.3",
+      "type": "实用工具"
+    },
+    {
+      "name": "出租车打表器",
+      "version": "V1.2.8",
+      "type": "实用工具"
+    },
+    {
+      "name": "应用管家_UID版",
+      "version": "V1.8.1",
+      "type": "实用工具"
+    },
+    {
+      "name": "应用管家_公签版",
+      "version": "V1.8.1",
+      "type": "实用工具"
+    },
+    {
+      "name": "红绿灯路况",
+      "version": "V2.5.8.251013",
+      "type": "实用工具"
+    },
+    {
+      "name": "地图插件",
+      "version": "V1.1.85",
+      "type": "GAC插件"
+    },
+    {
+      "name": "沉默·全景辅助",
+      "version": "V1.0.38",
+      "type": "GAC插件"
+    },
+    {
+      "name": "百度 CarLife Mod",
+      "version": "V4.3.79",
+      "type": "GAC插件"
+    },
+    {
+      "name": "程序及卸载",
+      "version": "V1.2",
+      "type": "GAC插件"
+    },
+    {
+      "name": "传祺解锁工具",
+      "version": "V1.0.0",
+      "type": "GAC插件"
+    },
+    {
+      "name": "仪表边距调整",
+      "version": "V1.0",
+      "type": "GAC插件"
+    },
+    {
+      "name": "无线 百度CarLlie",
+      "version": "4.0.0",
+      "type": "GAC插件"
+    },
+    {
+      "name": "无线 百度CarLlie",
+      "version": "4.0.0",
+      "type": "GAC插件"
+    },
+    {
+      "name": "无线 百度CarLlie",
+      "version": "4.0.0",
+      "type": "GAC插件"
+    },
+    {
+      "name": "无线_百度CarLlie",
+      "version": "共存版",
+      "type": "GAC插件"
+    },
+    {
+      "name": "百度Carlife投仪表",
+      "version": "V4.0",
+      "type": "GAC插件"
+    },
+    {
+      "name": "隐藏语音助手图标",
+      "version": "Splus全系通用",
+      "type": "GAC插件"
+    },
+    {
+      "name": "隐藏语音助手图标",
+      "version": "版本_2.0 20211206",
+      "type": "GAC插件"
+    },
+    {
+      "name": "隐藏语音助手图标",
+      "version": "版本_2.0 20220330",
+      "type": "GAC插件"
+    },
+    {
+      "name": "隐藏语音助手图标",
+      "version": "版本_2.0 20221222",
+      "type": "GAC插件"
+    },
+    {
+      "name": "隐藏语音助手图标",
+      "version": "版本_2.0 20230708",
+      "type": "GAC插件"
+    },
+    {
+      "name": "埃安Y/Splus返回键",
+      "version": "橙派Pie",
+      "type": "GAC插件"
+    },
+    {
+      "name": "当贝市场_车机版",
+      "version": "V1.0.3",
+      "type": "其他应用"
+    },
+    {
+      "name": "当贝市场_电视版",
+      "version": "V6.0.6",
+      "type": "其他应用"
+    },
+    {
+      "name": "Dilkuy应用市场",
+      "version": "V3.0",
+      "type": "其他应用"
+    },
+    {
+      "name": "布丁UI",
+      "version": "V2.1.2",
+      "type": "其他应用"
+    },
+    {
+      "name": "布丁ui极速版",
+      "version": "V1.0.2",
+      "type": "其他应用"
+    },
+    {
+      "name": "氢桌面_普通版",
+      "version": "V1.2.1",
+      "type": "其他应用"
+    },
+    {
+      "name": "氢桌面_公签版",
+      "version": "V画中画公签版",
+      "type": "其他应用"
+    },
+    {
+      "name": "乐酷桌面",
+      "version": "V1.6.7",
+      "type": "其他应用"
+    },
+    {
+      "name": "智车桌面",
+      "version": "V3.1.1",
+      "type": "其他应用"
+    },
+    {
+      "name": "Emotn UI",
+      "version": "V1.0.9.0",
+      "type": "其他应用"
+    },
+    {
+      "name": "QQ",
+      "version": "V9.2.66",
+      "type": "其他应用"
+    },
+    {
+      "name": "QQ",
+      "version": "V8.8.90",
+      "type": "其他应用"
+    },
+    {
+      "name": "腾讯欢乐斗地主",
+      "version": "V8.035",
+      "type": "其他应用"
+    },
+    {
+      "name": "有乐斗地主",
+      "version": "V2.4.5",
+      "type": "其他应用"
+    },
+    {
+      "name": "JJ斗地主",
+      "version": "V4.21.02",
+      "type": "其他应用"
+    },
+    {
+      "name": "悦美麻将",
+      "version": "V1.0.8",
+      "type": "其他应用"
+    },
+    {
+      "name": "全民象棋",
+      "version": "V3.7.9",
+      "type": "其他应用"
+    },
+    {
+      "name": "全民K歌",
+      "version": "V5.7.8",
+      "type": "其他应用"
+    },
+    {
+      "name": "金麦客专业K歌",
+      "version": "V2.7.8",
+      "type": "其他应用"
+    },
+    {
+      "name": "开唛K歌",
+      "version": "V3.1.11",
+      "type": "其他应用"
+    },
+    {
+      "name": "KTV",
+      "version": "V50.0.0",
+      "type": "其他应用"
+    },
+    {
+      "name": "KTV",
+      "version": "V60.0.0",
+      "type": "其他应用"
+    },
+    {
+      "name": "车载KTV",
+      "version": "V2.2.4",
+      "type": "其他应用"
+    },
+    {
+      "name": "随畅KTV",
+      "version": "V3.24.09",
+      "type": "其他应用"
+    },
+    {
+      "name": "小白文件管理器",
+      "version": "V2.8.0",
+      "type": "其他应用"
+    },
+    {
+      "name": "文件管理器",
+      "version": "公签版",
+      "type": "其他应用"
+    },
+    {
+      "name": "文件闪传",
+      "version": "V4.2.2",
+      "type": "其他应用"
+    },
+    {
+      "name": "ES文件浏览器",
+      "version": "V4.4.0",
+      "type": "其他应用"
+    },
+    {
+      "name": "质感文件",
+      "version": "V1.7.4",
+      "type": "其他应用"
+    },
+    {
+      "name": "MT管理器",
+      "version": "V2.17.3",
+      "type": "其他应用"
+    },
+    {
+      "name": "X浏览器",
+      "version": "V5.0.3",
+      "type": "其他应用"
+    },
+    {
+      "name": "米家",
+      "version": "V9.9.701",
+      "type": "其他应用"
+    },
+    {
+      "name": "盯盯拍",
+      "version": "V1.0.5",
+      "type": "其他应用"
+    },
+    {
+      "name": "讯飞输入法Pad版",
+      "version": "V4.1.1567",
+      "type": "其他应用"
+    },
+    {
+      "name": "百度输入法TV版",
+      "version": "V4.0.5.915",
+      "type": "其他应用"
+    },
+    {
+      "name": "同花顺 HD",
+      "version": "V3.01.01",
+      "type": "其他应用"
+    },
+    {
+      "name": "东方富通HD",
+      "version": "V5.4",
+      "type": "其他应用"
+    },
+    {
+      "name": "向日葵控制端",
+      "version": "V13.6.0",
+      "type": "其他应用"
+    },
+    {
+      "name": "ToDesk控制端",
+      "version": "V4.7.2",
+      "type": "其他应用"
+    },
+    {
+      "name": "v3.2_公签版",
+      "version": "V3.2",
+      "type": "版本升级"
+    },
+    {
+      "name": "测试应用",
+      "version": "测试版应用不作为最终版",
+      "type": "测试专区"
+    },
+    {
+      "name": "阿辉应用管家_公签版",
+      "version": "V3.2",
+      "type": "测试专区"
+    },
+    {
+      "name": "公签版",
+      "version": "V3.2",
+      "type": "测试专区"
+    }
+  ]
+}

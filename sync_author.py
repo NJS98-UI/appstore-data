@@ -7,6 +7,7 @@ import urllib.request
 
 AUTHOR_URL = "https://app.ahcjzs.cn/"
 DATA_JSON = "appstore.json"
+AUTHOR_SNAPSHOT = "docs/latest_author.json"
 
 CAT_MAP = {
     "1地图导航": "导航地图",
@@ -149,6 +150,7 @@ def main():
         new_compare = {k: v for k, v in new_data.items() if k != "updateTime"}
         if old_compare == new_compare:
             print("无变化")
+            write_snapshot(new_data)
             sys.exit(0)
         print(f"有变化: {old_total} -> {new_total}")
 
@@ -159,6 +161,30 @@ def main():
         json.dump(new_data, f, ensure_ascii=False, indent=2)
 
     os.replace(DATA_JSON + ".tmp", DATA_JSON)
+
+    write_snapshot(new_data)
+
+
+def write_snapshot(data):
+    try:
+        author_apps = []
+        for cat in data["categories"]:
+            for a in cat["apps"]:
+                author_apps.append({
+                    "name": a["name"],
+                    "version": a["version"],
+                    "type": cat["name"],
+                })
+        snapshot = {
+            "updateTime": data["updateTime"],
+            "appCount": len(author_apps),
+            "apps": author_apps,
+        }
+        os.makedirs("docs", exist_ok=True)
+        with open(AUTHOR_SNAPSHOT, "w", encoding="utf-8") as f:
+            json.dump(snapshot, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"保存快照失败: {e}")
 
 
 if __name__ == "__main__":

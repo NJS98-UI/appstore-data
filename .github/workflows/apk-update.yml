@@ -2,7 +2,7 @@ name: 同步最新APK
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/2 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -18,6 +18,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: 检测 YYGJ 最新 Release Tag
+        id: check
+        env:
+          GH_TOKEN: ${{ secrets.GHP_TOKEN || github.token }}
+        run: |
+          LATEST_TAG=$(gh release view --repo NJS98-UI/YYGJ --json tagName --jq .tagName 2>/dev/null || echo "none")
+          echo "latest_tag=$LATEST_TAG" >> "$GITHUB_OUTPUT"
+          OLD_TAG=""
+          if [ -f .last_sync_tag ]; then
+            OLD_TAG=$(cat .last_sync_tag)
+          fi
+          echo "old_tag=$OLD_TAG" >> "$GITHUB_OUTPUT"
+          if [ "$LATEST_TAG" != "none" ]; then
+            echo "YYGJ 最新: $LATEST_TAG"
+            echo "上次同步: $OLD_TAG"
+          else
+            echo "无法获取 YYGJ Release tag，回退到文件对比"
+          fi
+
       - name: 下载 YYGJ 最新 APK
         run: |
           mkdir -p apk
@@ -26,12 +45,21 @@ jobs:
           echo "APK 大小: $(du -h 'apk/冥城应用商店.apk' | cut -f1)"
 
       - name: 提交变更
+        env:
+          LATEST_TAG: ${{ steps.check.outputs.latest_tag }}
+          OLD_TAG: ${{ steps.check.outputs.old_tag }}
         run: |
           git config user.name "MCity Bot"
           git config user.email "dev@mcity.com"
           if git status --porcelain | grep -q "apk/"; then
-            git add "apk/冥城应用商店.apk"
-            git commit -m "sync: 更新最新 APK $(TZ=Asia/Shanghai date +%Y-%m-%d\ %H:%M)"
+            if [ "$LATEST_TAG" != "none" ]; then
+              echo "$LATEST_TAG" > .last_sync_tag
+              git add "apk/冥城应用商店.apk" .last_sync_tag
+              git commit -m "sync: 更新最新 APK $LATEST_TAG"
+            else
+              git add "apk/冥城应用商店.apk"
+              git commit -m "sync: 更新最新 APK $(TZ=Asia/Shanghai date +%Y-%m-%d\ %H:%M)"
+            fi
             git push origin main
             echo "已同步"
           else

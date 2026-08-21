@@ -17,8 +17,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GHP_TOKEN }}
 
       - name: 运行同步脚本
         run: python3 sync_author.py
@@ -39,7 +37,7 @@ print(sum(len(c['apps']) for c in d['categories']))
             git add -f docs/latest_author.json
             git add -A icons/
             git commit -m "sync: 同步作者商店更新 $(TZ=Asia/Shanghai date +%Y-%m-%d\ %H:%M) (共${COUNT}个应用)"
-            git push origin main
+            git push origin main 2>&1
             echo "已同步"
           else
             echo "无变化"

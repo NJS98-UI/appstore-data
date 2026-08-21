@@ -22,7 +22,7 @@ jobs:
         run: |
           mkdir -p apk
           curl -sL --fail -o "apk/冥城应用商店.apk" \
-            "https://github.com/NJS98-UI/YYGJ/releases/latest/download/gongqian_appstore_signed.apk"
+            "https://github.com/NJS98-UI/YYGJ/releases/latest/download/gongqian_appstore_hardened.apk"
           echo "APK 大小: $(du -h 'apk/冥城应用商店.apk' | cut -f1)"
 
       - name: 提交变更

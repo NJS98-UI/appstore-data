@@ -1,0 +1,43 @@
+name: 同步作者商店更新
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: author-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GHP_TOKEN }}
+
+      - name: 运行同步脚本
+        run: python3 sync_author.py
+
+      - name: 提交变更
+        run: |
+          if git status --porcelain | grep -q "appstore.json"; then
+            git config user.name "MCity Bot"
+            git config user.email "dev@mcity.com"
+            COUNT=$(python3 -c "
+import json
+with open('appstore.json', encoding='utf-8') as f:
+    d = json.load(f)
+print(sum(len(c['apps']) for c in d['categories']))
+")
+            git add appstore.json
+            git commit -m "sync: 同步作者商店更新 $(TZ=Asia/Shanghai date +%Y-%m-%d\ %H:%M) (共${COUNT}个应用)"
+            git push origin main
+            echo "已同步"
+          else
+            echo "无变化"
+          fi

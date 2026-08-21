@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>应用商店更新检测</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; }
+.header { background: #1e293b; border-bottom: 1px solid #334155; padding: 20px 24px; display: flex; align-items: center; justify-content: space-between; }
+.header h1 { font-size: 22px; color: #f1f5f9; }
+.header .subtitle { color: #94a3b8; font-size: 13px; margin-top: 4px; }
+.status-bar { display: flex; gap: 16px; padding: 16px 24px; background: #1e293b; border-bottom: 1px solid #334155; flex-wrap: wrap; }
+.status-item { display: flex; align-items: center; gap: 8px; font-size: 14px; color: #cbd5e1; }
+.status-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.status-dot.ok { background: #22c55e; }
+.status-dot.warn { background: #eab308; }
+.status-dot.error { background: #ef4444; }
+.main { padding: 24px; max-width: 1200px; margin: 0 auto; }
+.section-title { font-size: 16px; font-weight: 600; color: #f1f5f9; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid #334155; }
+.diff-list { display: grid; gap: 12px; }
+.diff-item { background: #1e293b; border-radius: 8px; padding: 14px 16px; display: flex; align-items: center; gap: 12px; border-left: 3px solid transparent; }
+.diff-item.added { border-left-color: #22c55e; }
+.diff-item.updated { border-left-color: #3b82f6; }
+.diff-item.removed { border-left-color: #ef4444; }
+.diff-badge { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; text-transform: uppercase; flex-shrink: 0; }
+.diff-badge.added { background: #166534; color: #86efac; }
+.diff-badge.updated { background: #1e3a5f; color: #93c5fd; }
+.diff-badge.removed { background: #7f1d1d; color: #fca5a5; }
+.diff-name { font-size: 14px; font-weight: 500; flex: 1; }
+.diff-version { font-size: 12px; color: #94a3b8; }
+.diff-arrow { color: #64748b; margin: 0 6px; }
+.app-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.app-card { background: #1e293b; border-radius: 8px; padding: 14px; }
+.app-name { font-size: 14px; font-weight: 600; color: #f1f5f9; margin-bottom: 4px; }
+.app-version { font-size: 12px; color: #94a3b8; }
+.app-category { font-size: 11px; color: #64748b; margin-top: 6px; }
+.loading { text-align: center; padding: 60px 20px; color: #94a3b8; }
+.loading .spinner { width: 32px; height: 32px; border: 3px solid #334155; border-top-color: #3b82f6; border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 16px; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.error-box { background: #7f1d1d; border: 1px solid #991b1b; border-radius: 8px; padding: 20px; text-align: center; color: #fca5a5; }
+.empty { text-align: center; padding: 40px 20px; color: #64748b; }
+.refresh-btn { background: #3b82f6; color: white; border: none; padding: 8px 16px; border-radius: 6px; font-size: 13px; cursor: pointer; font-weight: 500; }
+.refresh-btn:hover { background: #2563eb; }
+.refresh-btn:disabled { background: #475569; cursor: not-allowed; }
+.tabs { display: flex; gap: 4px; background: #1e293b; border-radius: 8px; padding: 4px; margin-bottom: 20px; }
+.tab { padding: 8px 16px; border-radius: 6px; font-size: 13px; font-weight: 500; cursor: pointer; color: #94a3b8; transition: all 0.15s; border: none; background: none; }
+.tab.active { background: #3b82f6; color: white; }
+.tab:hover:not(.active) { color: #e2e8f0; }
+.tab-count { font-size: 11px; margin-left: 4px; opacity: 0.7; }
+.controls { display: flex; gap: 12px; align-items: center; margin-bottom: 20px; flex-wrap: wrap; }
+.last-check { font-size: 13px; color: #64748b; }
+@media (max-width: 640px) {
+  .header { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .status-bar { flex-direction: column; gap: 8px; }
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <div>
+    <h1>应用商店更新检测</h1>
+    <div class="subtitle">自动对比作者服务器与已同步数据，检测应用更新</div>
+  </div>
+  <button class="refresh-btn" onclick="checkNow()">检查更新</button>
+</div>
+
+<div class="status-bar" id="statusBar">
+  <div class="status-item"><span class="status-dot" id="syncDot"></span><span id="syncStatus">加载中...</span></div>
+  <div class="status-item">应用总数: <span id="appCount">-</span></div>
+  <div class="status-item">上次同步: <span id="lastSync">-</span></div>
+  <div class="status-item">上次检测: <span id="lastCheck">-</span></div>
+</div>
+
+<div class="main">
+  <div class="tabs" id="tabs">
+    <button class="tab active" data-tab="diff" onclick="switchTab('diff')">更新差异</button>
+    <button class="tab" data-tab="apps" onclick="switchTab('apps')">所有应用</button>
+  </div>
+
+  <div id="diffView">
+    <div class="section-title">检测结果</div>
+    <div class="loading" id="diffLoading">
+      <div class="spinner"></div>
+      <div>正在检测更新...</div>
+    </div>
+    <div id="diffContent"></div>
+  </div>
+
+  <div id="appsView" style="display:none">
+    <div class="section-title">应用列表</div>
+    <div class="loading" id="appsLoading">
+      <div class="spinner"></div>
+      <div>正在加载...</div>
+    </div>
+    <div id="appsContent"></div>
+  </div>
+</div>
+
+<script>
+const STORE_JSON_URL = "https://raw.githubusercontent.com/NJS98-UI/appstore-data/main/appstore.json";
+const AUTHOR_URL = "https://app.ahcjzs.cn/";
+const CORS_PROXY = "https://api.allorigins.win/raw?url=";
+
+let storeData = null;
+let authorData = null;
+
+async function fetchWithTimeout(url, timeoutMs = 15000) {
+  const controller = new AbortController();
+  const id = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const r = await fetch(url, { signal: controller.signal });
+    clearTimeout(id);
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    return r;
+  } catch (e) {
+    clearTimeout(id);
+    throw e;
+  }
+}
+
+function parseAuthorHtml(html) {
+  const apps = [];
+  const cardRegex = /<div class="app-card">(.*?)<\/div>\s*(?=<div class="app-card">|$)/gs;
+  let match;
+  while ((match = cardRegex.exec(html)) !== null) {
+    const card = match[1];
+    const get = (cls) => {
+      const m = new RegExp(`<div class="${cls}">(.*?)<\\/div>`, 's').exec(card);
+      return m ? m[1].trim() : '';
+    };
+    const name = get('app-name');
+    if (!name || name === '看文字介绍') continue;
+    const verInfo = get('app-version');
+    const [ver] = verInfo.split(/[┃┆|]/);
+    const icon = /<img src="([^"]+)"/.exec(card);
+    const dl = /window\.location\.href = '([^']*)'/.exec(card);
+    let url = dl ? dl[1].trim() : '';
+    url = url.replace(/^(删除|xx|X)/, '').trim();
+    if (!url || url === 'xx') continue;
+    apps.push({
+      name, version: (ver || '').trim(),
+      type: get('app-type'),
+      icon: icon ? icon[1] : '',
+      url
+    });
+  }
+  return apps;
+}
+
+function parseStoreJson(data) {
+  const apps = [];
+  for (const cat of data.categories) {
+    for (const app of cat.apps) {
+      apps.push({
+        name: app.name,
+        version: app.version,
+        type: cat.name,
+        icon: app.icon,
+        url: app.url
+      });
+    }
+  }
+  return apps;
+}
+
+function compareApps(author, store) {
+  const storeMap = {};
+  for (const a of store) storeMap[a.name] = a;
+  const authorMap = {};
+  for (const a of author) authorMap[a.name] = a;
+
+  const added = [];
+  const updated = [];
+  const removed = [];
+
+  for (const a of author) {
+    const s = storeMap[a.name];
+    if (!s) { added.push(a); continue; }
+    if (s.version !== a.version) updated.push({ from: s, to: a });
+  }
+  for (const a of store) {
+    if (!authorMap[a.name]) removed.push(a);
+  }
+  return { added, updated, removed };
+}
+
+function renderDiff({ added, updated, removed }) {
+  const total = added.length + updated.length + removed.length;
+  if (total === 0) {
+    return '<div class="empty">与作者服务器完全一致，无需更新</div>';
+  }
+  let html = `<div class="diff-list">`;
+  for (const a of added) {
+    html += `<div class="diff-item added">
+      <span class="diff-badge added">新增</span>
+      <span class="diff-name">${esc(a.name)}</span>
+      <span class="diff-version">${esc(a.version)}</span>
+    </div>`;
+  }
+  for (const { from, to } of updated) {
+    html += `<div class="diff-item updated">
+      <span class="diff-badge updated">更新</span>
+      <span class="diff-name">${esc(from.name)}</span>
+      <span class="diff-version">${esc(from.version)} <span class="diff-arrow">→</span> ${esc(to.version)}</span>
+    </div>`;
+  }
+  for (const a of removed) {
+    html += `<div class="diff-item removed">
+      <span class="diff-badge removed">移除</span>
+      <span class="diff-name">${esc(a.name)}</span>
+      <span class="diff-version">${esc(a.version)}</span>
+    </div>`;
+  }
+  html += '</div>';
+  return html;
+}
+
+function renderApps(data) {
+  if (!data || data.categories.length === 0) {
+    return '<div class="empty">暂无应用数据</div>';
+  }
+  let html = '';
+  for (const cat of data.categories) {
+    html += `<div class="section-title" style="margin-top:24px">${esc(cat.name)} (${cat.apps.length})</div>`;
+    html += '<div class="app-grid">';
+    for (const app of cat.apps) {
+      html += `<div class="app-card">
+        <div class="app-name">${esc(app.name)}</div>
+        <div class="app-version">${esc(app.version)}${app.size ? ' / ' + esc(app.size) : ''}</div>
+        <div class="app-category">${esc(cat.name)}</div>
+      </div>`;
+    }
+    html += '</div>';
+  }
+  return html;
+}
+
+function esc(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+function updateStatus(data) {
+  document.getElementById('syncDot').className = 'status-dot ok';
+  document.getElementById('syncStatus').textContent = '已同步';
+  const total = data.categories.reduce((s, c) => s + c.apps.length, 0);
+  document.getElementById('appCount').textContent = total;
+  document.getElementById('lastSync').textContent = data.updateTime || '未知';
+}
+
+async function checkNow() {
+  document.getElementById('diffLoading').style.display = 'block';
+  document.getElementById('diffContent').innerHTML = '';
+  document.getElementById('lastCheck').textContent = new Date().toLocaleString('zh-CN');
+
+  try {
+    const [storeRes, authorRes] = await Promise.all([
+      fetchWithTimeout(STORE_JSON_URL, 15000).catch(() => null),
+      fetchWithTimeout(CORS_PROXY + encodeURIComponent(AUTHOR_URL), 20000).catch(() => null)
+    ]);
+
+    if (storeRes) {
+      storeData = await storeRes.json();
+      updateStatus(storeData);
+      const storeApps = parseStoreJson(storeData);
+      document.getElementById('appsContent').innerHTML = renderApps(storeData);
+    } else {
+      throw new Error('无法获取商店数据');
+    }
+
+    if (authorRes) {
+      const html = await authorRes.text();
+      authorData = parseAuthorHtml(html);
+      const storeApps = parseStoreJson(storeData);
+      const diff = compareApps(authorData, storeApps);
+      document.getElementById('diffContent').innerHTML = renderDiff(diff);
+      document.getElementById('diffLoading').style.display = 'none';
+      if (diff.added.length + diff.updated.length + diff.removed.length > 0) {
+        document.getElementById('syncDot').className = 'status-dot warn';
+        document.getElementById('syncStatus').textContent = '有更新待同步';
+      }
+    } else {
+      document.getElementById('diffContent').innerHTML = '<div class="error-box">无法访问作者服务器，请稍后重试</div>';
+      document.getElementById('diffLoading').style.display = 'none';
+    }
+  } catch (e) {
+    document.getElementById('diffContent').innerHTML = `<div class="error-box">检测失败: ${esc(e.message)}</div>`;
+    document.getElementById('diffLoading').style.display = 'none';
+  }
+}
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelector(`[data-tab="${tab}"]`).classList.add('active');
+  document.getElementById('diffView').style.display = tab === 'diff' ? 'block' : 'none';
+  document.getElementById('appsView').style.display = tab === 'apps' ? 'block' : 'none';
+}
+
+window.onload = checkNow;
+</script>
+</body>
+</html>

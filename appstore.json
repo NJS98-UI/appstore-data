@@ -10,7 +10,7 @@
           "version": "V9.5.0.600013",
           "description": "高德地图车机版_官网原版原包名，支持巡航红绿灯_不支持仪表投屏。持续跟随官网更新... 注意：18-21款老车机切勿下载安装此版本！",
           "size": "147.77MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/高德地图车机版.png",
+          "icon": "icons/高德地图车机版.png",
           "url": "https://1832431089.cdn.123clouddisk.com/1832431089/31074523"
         },
         {
@@ -18,7 +18,7 @@
           "version": "V9.5.0.600013",
           "description": "根据官网原版原包名仅修改3D天空和增加悬浮_原包名纯净版，支持巡航红绿灯_不支持仪表投屏。",
           "size": "143.76MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/高德GAC悬浮版.png",
+          "icon": "icons/高德GAC悬浮版.png",
           "url": "https://1832431089.cdn.123clouddisk.com/1832431089/31237480"
         },
         {
@@ -26,7 +26,7 @@
           "version": "V9.5.0.600013",
           "description": "根据官网原版仅修改3D天空和增加悬浮+包名_共存纯净版，支持巡航红绿灯_不支持仪表投屏。",
           "size": "144.95MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/高德GAC共存版.png",
+          "icon": "icons/高德GAC共存版.png",
           "url": "https://1832431089.cdn.123clouddisk.com/1832431089/30898586"
         },
         {
@@ -34,7 +34,7 @@
           "version": "V8.5.0.600058",
           "description": "支持巡航4灯/导航2灯，悬浮+共存_纯净版（不支持仪表投屏）",
           "size": "127.71MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/高德GAC共存版.png",
+          "icon": "icons/高德GAC共存版.png",
           "url": "https://vip.123pan.cn/1832431089/18142416"
         },
         {
@@ -42,7 +42,7 @@
           "version": "V7.5.0",
           "description": "支持导航红绿灯读秒可同时仪表显示，传祺埃安原车自带仪表显示导航的均支持。",
           "size": "蓝天白云3D",
-          "icon": "https://app.ahcjzs.cn/app/icon/高德GAC仪表版.png",
+          "icon": "icons/高德GAC仪表版.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/24108487"
         },
         {
@@ -50,7 +50,7 @@
           "version": "V7.5.0",
           "description": "支持导航红绿灯读秒可同时仪表显示，传祺埃安原车自带仪表显示导航的均支持。",
           "size": "山水紫霞3D建模",
-          "icon": "https://app.ahcjzs.cn/app/icon/高德GAC仪表版.png",
+          "icon": "icons/高德GAC仪表版.png",
           "url": "https://vip.123pan.cn/1832431089/12550414"
         },
         {
@@ -58,7 +58,7 @@
           "version": "V7.1.0",
           "description": "适用于老款传祺埃安原车自带仪表显示导航地图的车机",
           "size": "89.98MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/高德AUTO共存版.png",
+          "icon": "icons/高德AUTO共存版.png",
           "url": "https://vip.123pan.cn/1832431089/8948378"
         },
         {
@@ -66,7 +66,7 @@
           "version": "V21.17.2",
           "description": "车道级导航_车机性能较差的不建议使用",
           "size": "153MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/百度地图V21版.png",
+          "icon": "icons/百度地图V21版.png",
           "url": "https://downapp.baidu.com/original_new/322/1/1/1783700482163/BaiduMapForAuto.apk"
         },
         {
@@ -74,7 +74,7 @@
           "version": "V6.0.4",
           "description": "百度地图_旧车机版（低配置车机适用）",
           "size": "115.84MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/百度地图_车机版.png",
+          "icon": "icons/百度地图_车机版.png",
           "url": "https://vip.123pan.cn/1832431089/7061018"
         },
         {
@@ -82,7 +82,7 @@
           "version": "V9.9.0.113",
           "description": "腾讯地图新车机版_红绿灯车道级3D建模",
           "size": "179MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/腾讯地图车机版.png",
+          "icon": "icons/腾讯地图车机版.png",
           "url": "https://smart-navi-1258344699.cos.ap-guangzhou.myqcloud.com/ua/apk/TencentMapAuto_user_lovely_9.9.0.113_release_20260729163010.apk"
         },
         {
@@ -90,7 +90,7 @@
           "version": "V2.3.0",
           "description": "xx",
           "size": "5.36MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/领航红绿灯.png",
+          "icon": "icons/领航红绿灯.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/24135654"
         },
         {
@@ -98,7 +98,7 @@
           "version": "V3.0.6.260323",
           "description": "xx",
           "size": "17.12MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/红绿灯路况.png",
+          "icon": "icons/红绿灯路况.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/24135660"
         },
         {
@@ -106,7 +106,7 @@
           "version": "V7.5.0",
           "description": "适用于老款传祺埃安原车自带仪表显示导航地图的车机",
           "size": "蓝天白云3D",
-          "icon": "https://app.ahcjzs.cn/app/icon/高德GAC阿辉版.png",
+          "icon": "icons/高德GAC阿辉版.png",
           "url": "https://vip.123pan.cn/1832431089/15799373"
         },
         {
@@ -114,7 +114,7 @@
           "version": "V7.5.0",
           "description": "升级替换原车高德至7.5版本，安装后 需先激活ADB，后清除缓存并重置 再启动！！！！",
           "size": "蓝天白云3D",
-          "icon": "https://app.ahcjzs.cn/app/icon/高德GAC阿辉版.png",
+          "icon": "icons/高德GAC阿辉版.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/26957843"
         },
         {
@@ -122,7 +122,7 @@
           "version": "V7.5.0",
           "description": "升级替换原车高德至7.5版本，安装后 需先激活ADB，后清除缓存并重置 再启动！！！！",
           "size": "蓝天白云3D",
-          "icon": "https://app.ahcjzs.cn/app/icon/高德GAC阿辉版.png",
+          "icon": "icons/高德GAC阿辉版.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/23867921"
         },
         {
@@ -130,7 +130,7 @@
           "version": "V7.5.0",
           "description": "升级替换原车高德至7.5版本，安装后 需先激活ADB，后清除缓存并重置 再启动！！！！",
           "size": "蓝天白云3D",
-          "icon": "https://app.ahcjzs.cn/app/icon/高德GAC阿辉版.png",
+          "icon": "icons/高德GAC阿辉版.png",
           "url": "https://vip.123pan.cn/1832431089/16440899"
         },
         {
@@ -138,7 +138,7 @@
           "version": "V7.5.0",
           "description": "升级替换原车高德至7.5版本，安装后 需先激活ADB，后清除缓存并重置 再启动！！！！",
           "size": "蓝天白云3D",
-          "icon": "https://app.ahcjzs.cn/app/icon/高德GAC阿辉版.png",
+          "icon": "icons/高德GAC阿辉版.png",
           "url": "https://1832431089.cdn.123clouddisk.com/1832431089/29356342"
         },
         {
@@ -146,7 +146,7 @@
           "version": "V7.5.0",
           "description": "升级替换原车高德至7.5版本，安装后 需先激活ADB，后清除缓存并重置 再启动！！！！",
           "size": "蓝天白云3D",
-          "icon": "https://app.ahcjzs.cn/app/icon/高德GAC阿辉版.png",
+          "icon": "icons/高德GAC阿辉版.png",
           "url": "https://vip.123pan.cn/1832431089/13923800"
         },
         {
@@ -154,7 +154,7 @@
           "version": "V7.5.0",
           "description": "升级替换原车高德至7.5版本，安装后 需先激活ADB，后清除缓存并重置 再启动！！！！",
           "size": "蓝天白云3D",
-          "icon": "https://app.ahcjzs.cn/app/icon/高德GAC阿辉版.png",
+          "icon": "icons/高德GAC阿辉版.png",
           "url": "https://1832431089.cdn.123clouddisk.com/1832431089/29437612"
         },
         {
@@ -162,7 +162,7 @@
           "version": "V7.5.0",
           "description": "升级替换原车高德至7.5版本，安装后 需先激活ADB，后清除缓存并重置 再启动！！！！",
           "size": "蓝天白云3D",
-          "icon": "https://app.ahcjzs.cn/app/icon/高德GAC阿辉版.png",
+          "icon": "icons/高德GAC阿辉版.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/23867950"
         },
         {
@@ -170,7 +170,7 @@
           "version": "V7.5.0",
           "description": "升级替换原车高德至7.5版本，安装后 需先激活ADB，后清除缓存并重置 再启动！！！！",
           "size": "蓝天白云3D",
-          "icon": "https://app.ahcjzs.cn/app/icon/高德GAC阿辉版.png",
+          "icon": "icons/高德GAC阿辉版.png",
           "url": "https://1832431089.cdn.123clouddisk.com/1832431089/29330670"
         },
         {
@@ -178,7 +178,7 @@
           "version": "V7.5.0",
           "description": "升级替换原车高德至7.5版本，安装后 需先激活ADB，后清除缓存并重置 再启动！！！！",
           "size": "蓝天白云3D",
-          "icon": "https://app.ahcjzs.cn/app/icon/高德GAC阿辉版.png",
+          "icon": "icons/高德GAC阿辉版.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/25484157"
         },
         {
@@ -186,7 +186,7 @@
           "version": "V7.5.0",
           "description": "升级替换原车高德至7.5版本，安装后 需先激活ADB，后清除缓存并重置 再启动！！！！",
           "size": "蓝天白云3D",
-          "icon": "https://app.ahcjzs.cn/app/icon/高德GAC阿辉版.png",
+          "icon": "icons/高德GAC阿辉版.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/19696423"
         },
         {
@@ -194,7 +194,7 @@
           "version": "V7.5.0",
           "description": "升级替换原车高德至7.5版本，安装后 需先激活ADB，后清除缓存并重置 再启动！！！！",
           "size": "蓝天白云3D",
-          "icon": "https://app.ahcjzs.cn/app/icon/高德GAC阿辉版.png",
+          "icon": "icons/高德GAC阿辉版.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/21401896"
         },
         {
@@ -202,7 +202,7 @@
           "version": "V7.5.0",
           "description": "升级替换原车高德至7.5版本，安装后 需先激活ADB，后清除缓存并重置 再启动！！！！",
           "size": "蓝天白云3D",
-          "icon": "https://app.ahcjzs.cn/app/icon/高德GAC阿辉版.png",
+          "icon": "icons/高德GAC阿辉版.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/25286487"
         }
       ]
@@ -215,7 +215,7 @@
           "version": "V4.3.1",
           "description": "酷我音乐_方控版（支持方向盘按键切歌）",
           "size": "10.89MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/酷我音乐_简版.webp",
+          "icon": "icons/酷我音乐_简版.webp",
           "url": "https://vip.123pan.cn/1832431089/7061015"
         },
         {
@@ -223,7 +223,7 @@
           "version": "V6.3.2.38",
           "description": "酷我音乐_车机共存版（VIP免会员）与官方原包名版共存",
           "size": "35.60MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/酷我音乐.png",
+          "icon": "icons/酷我音乐.png",
           "url": "https://1832431089.cdn.123clouddisk.com/1832431089/30204498"
         },
         {
@@ -231,7 +231,7 @@
           "version": "V6.0.6",
           "description": "酷狗音乐_车机版官方最新，持续跟随官网更新...",
           "size": "97.7MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/酷狗音乐车机版.jpg",
+          "icon": "icons/酷狗音乐车机版.jpg",
           "url": "https://vip.123pan.cn/1832431089/13814079"
         },
         {
@@ -239,7 +239,7 @@
           "version": "V3.5.5",
           "description": "酷狗音乐_方控版（支持方向盘按键切歌）",
           "size": "30.32MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/酷狗音乐车机版.jpg",
+          "icon": "icons/酷狗音乐车机版.jpg",
           "url": "https://vip.123pan.cn/1832431089/7846696"
         },
         {
@@ -247,7 +247,7 @@
           "version": "V6.0.1",
           "description": "酷狗音乐_HD版（适用于性能差的老车机）",
           "size": "48.7MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/酷狗音乐HD.png",
+          "icon": "icons/酷狗音乐HD.png",
           "url": "https://vip.123pan.cn/1832431089/13814078"
         },
         {
@@ -255,7 +255,7 @@
           "version": "V3.7.50",
           "description": "网易云音乐_车机版官方最新，持续跟随官网更新...",
           "size": "48.9MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/网易云音乐车机版.png",
+          "icon": "icons/网易云音乐车机版.png",
           "url": "https://d3.music.126.net/eec9db64-427f-40e2-910d-bf0798c901e4.apk"
         },
         {
@@ -263,7 +263,7 @@
           "version": "V3.2.5",
           "description": "网易云音乐_方控版（支持方向盘按键切歌）",
           "size": "26.19MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/网易云音乐车机版.png",
+          "icon": "icons/网易云音乐车机版.png",
           "url": "https://vip.123pan.cn/1832431089/8195832"
         },
         {
@@ -271,7 +271,7 @@
           "version": "V1.1.30",
           "description": "网易云音乐_电视版官方最新，持续跟随官网更新...",
           "size": "42.8MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/网易云音乐车机版.png",
+          "icon": "icons/网易云音乐车机版.png",
           "url": "https://nos.netease.com/music-static/3264music1001030_250307165532_netease.apk"
         },
         {
@@ -279,7 +279,7 @@
           "version": "V3.1.0",
           "description": "QQ音乐_车机版官方最新，持续跟随官网更新...",
           "size": "90.9MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/QQ音乐车机版.png",
+          "icon": "icons/QQ音乐车机版.png",
           "url": "https://dldir1.qq.com/music/qqmusiccar/10049404-qqmusiccar-3.1.0.9-3a05c14e42_20250506.apk"
         },
         {
@@ -287,7 +287,7 @@
           "version": "V1.9.9.3",
           "description": "QQ音乐_方控版（支持方向盘按键切歌）",
           "size": "11.87MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/QQ音乐车机版.png",
+          "icon": "icons/QQ音乐车机版.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/23297576"
         },
         {
@@ -295,7 +295,7 @@
           "version": "V6.0.1",
           "description": "QQ音乐_HD版（适用于性能差的老车机）",
           "size": "67.6MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/QQ音乐HD.png",
+          "icon": "icons/QQ音乐HD.png",
           "url": "https://dldir1.qq.com/music/qqmusicpad/10003480-qqmusicpad-6.0.1.9-20250124.apk"
         },
         {
@@ -303,7 +303,7 @@
           "version": "V1.0.10",
           "description": "汽水音乐_车机版官方最新，持续跟随官网更新...",
           "size": "37.23MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/汽水音乐.png",
+          "icon": "icons/汽水音乐.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/27557824"
         },
         {
@@ -311,7 +311,7 @@
           "version": "V16.7.0",
           "description": "汽水音乐_疑似手机版，软件较大 谨慎下载...",
           "size": "148.99MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/汽水音乐.png",
+          "icon": "icons/汽水音乐.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/28950575"
         },
         {
@@ -319,7 +319,7 @@
           "version": "V1.3.0",
           "description": "汽水音乐_1.3.0_不可登录横屏版",
           "size": "34.57MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/汽水音乐.png",
+          "icon": "icons/汽水音乐.png",
           "url": "https://vip.123pan.cn/1832431089/11540802"
         },
         {
@@ -327,7 +327,7 @@
           "version": "V3.20.1",
           "description": "原火山车娱，抖音短视频+汽水音乐 二合一。",
           "size": "40.42MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/车鱼视听.png",
+          "icon": "icons/车鱼视听.png",
           "url": "https://vip.123pan.cn/1832431089/18410527"
         },
         {
@@ -335,7 +335,7 @@
           "version": "V4.6.0",
           "description": "苹果 Apple Music 音乐播放器安卓版",
           "size": "135.32MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/Apple Music.png",
+          "icon": "icons/Apple Music.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/23990569"
         },
         {
@@ -343,7 +343,7 @@
           "version": "V1.1.0",
           "description": "清风DJ_车机版官方最新，持续跟随官网更新...",
           "size": "25.22MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/清风DJ车机版.png",
+          "icon": "icons/清风DJ车机版.png",
           "url": "https://vip.123pan.cn/1832431089/7061056"
         },
         {
@@ -351,7 +351,7 @@
           "version": "V4.4.9",
           "description": "DJ秀_破解版_无损音乐随意听",
           "size": "48.90MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/DJ秀.png",
+          "icon": "icons/DJ秀.png",
           "url": "https://vip.123pan.cn/1832431089/7061002"
         },
         {
@@ -359,7 +359,7 @@
           "version": "V5.5.22",
           "description": "DJ多多手机版",
           "size": "29.09MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/DJ多多.png",
+          "icon": "icons/DJ多多.png",
           "url": "https://vip.123pan.cn/1832431089/9491857"
         },
         {
@@ -367,7 +367,7 @@
           "version": "V2.5",
           "description": "音视DJ_MV版",
           "size": "13.31MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/音视DJ.png",
+          "icon": "icons/音视DJ.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/23303993"
         },
         {
@@ -375,7 +375,7 @@
           "version": "V1.0.7",
           "description": "冬瓜音乐_免费版（免登录 免会员）",
           "size": "10.76MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/冬瓜音乐.png",
+          "icon": "icons/冬瓜音乐.png",
           "url": "https://vip.123pan.cn/1832431089/18044028"
         },
         {
@@ -383,7 +383,7 @@
           "version": "V1.4.2",
           "description": "落雪音乐_1.4.2",
           "size": "131.18MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/落雪音乐.png",
+          "icon": "icons/落雪音乐.png",
           "url": "https://vip.123pan.cn/1832431089/7061001"
         },
         {
@@ -391,7 +391,7 @@
           "version": "V2.2.0",
           "description": "懒人听书_小说 戏曲 相声 历史 等...",
           "size": "13.8MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/懒人畅听.png",
+          "icon": "icons/懒人畅听.png",
           "url": "https://vip.123pan.cn/1832431089/7061026"
         },
         {
@@ -399,7 +399,7 @@
           "version": "V2.3.2",
           "description": "在线FM本地 省市 网络广播电台",
           "size": "9.66MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/畅听FM.png",
+          "icon": "icons/畅听FM.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/23312310"
         },
         {
@@ -407,7 +407,7 @@
           "version": "V1.0.7",
           "description": "在线FM听书",
           "size": "18.53MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/听友FM.png",
+          "icon": "icons/听友FM.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/27837089"
         },
         {
@@ -415,7 +415,7 @@
           "version": "V1.9.8",
           "description": "在线FM本地 省市 网络广播电台",
           "size": "9.47MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/听听广播.png",
+          "icon": "icons/听听广播.png",
           "url": "https://vip.123pan.cn/1832431089/7061058"
         },
         {
@@ -423,7 +423,7 @@
           "version": "V4.6",
           "description": "在线FM收音机",
           "size": "7.78MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/龙卷风收音机.png",
+          "icon": "icons/龙卷风收音机.png",
           "url": "https://vip.123pan.cn/1832431089/7061000"
         },
         {
@@ -431,7 +431,7 @@
           "version": "修改版",
           "description": "在线FM收音机 广播电台，支持收听全球。",
           "size": "19.96MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/MyRadio收音机.png",
+          "icon": "icons/MyRadio收音机.png",
           "url": "https://vip.123pan.cn/1832431089/7061025"
         },
         {
@@ -439,7 +439,7 @@
           "version": "V3.0.1",
           "description": "在线喜马拉雅FM_车机版",
           "size": "6.14MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/喜马拉雅FM.png",
+          "icon": "icons/喜马拉雅FM.png",
           "url": "https://1832431089.cdn.123clouddisk.com/1832431089/31028376"
         }
       ]
@@ -452,7 +452,7 @@
           "version": "V1.0.13",
           "description": "电影天堂，免费看电视 影视剧",
           "size": "21.47MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/电影天堂.png",
+          "icon": "icons/电影天堂.png",
           "url": "https://app.ahcjzs.cn/app/apk/电影天堂_1.0.13.apk"
         },
         {
@@ -460,7 +460,7 @@
           "version": "V3.8.0",
           "description": "喵影视TV_普通版，免费看电视 影视剧",
           "size": "15.28MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/普通版 喵影视TV.png",
+          "icon": "icons/普通版 喵影视TV.png",
           "url": "https://vip.123pan.cn/1832431089/7613210"
         },
         {
@@ -468,7 +468,7 @@
           "version": "V3.8.0",
           "description": "喵影视TV_高级版，免费看电视 影视剧",
           "size": "24.42MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/高级版 喵影视TV.png",
+          "icon": "icons/高级版 喵影视TV.png",
           "url": "https://vip.123pan.cn/1832431089/7613211"
         },
         {
@@ -476,7 +476,7 @@
           "version": "V1.6.0",
           "description": "免费看电视 影视剧 破解版",
           "size": "33.35MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/小苹果影视盒子.png",
+          "icon": "icons/小苹果影视盒子.png",
           "url": "https://vip.123pan.cn/1832431089/18333863"
         },
         {
@@ -484,7 +484,7 @@
           "version": "V4.1.4",
           "description": "免费看电视 影视剧 破解版",
           "size": "61.90MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/南瓜电影.png",
+          "icon": "icons/南瓜电影.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/27804327"
         },
         {
@@ -492,7 +492,7 @@
           "version": "V12.2.1.2",
           "description": "优酷视频TV电视版_会员不足5元。触控终结版 切勿更新，新版本不支持触控！",
           "size": "21.66MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/CIBN酷喵.png",
+          "icon": "icons/CIBN酷喵.png",
           "url": "https://1832431089.cdn.123clouddisk.com/1832431089/31195571"
         },
         {
@@ -500,7 +500,7 @@
           "version": "V5.8.3.5",
           "description": "优酷少儿视频TV电视版",
           "size": "14.75MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/酷喵少儿.png",
+          "icon": "icons/酷喵少儿.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/28107354"
         },
         {
@@ -508,7 +508,7 @@
           "version": "V7.9.1",
           "description": "爱奇艺HD横屏版适用于老车机",
           "size": "27.98MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/爱奇艺HD.png",
+          "icon": "icons/爱奇艺HD.png",
           "url": "https://vip.123pan.cn/1832431089/13702754"
         },
         {
@@ -516,7 +516,7 @@
           "version": "V15.9.0",
           "description": "爱奇艺Pad大屏版",
           "size": "144.05MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/爱奇艺Pad.png",
+          "icon": "icons/爱奇艺Pad.png",
           "url": "https://vip.123pan.cn/1832431089/7846964"
         },
         {
@@ -524,7 +524,7 @@
           "version": "V2.2.7",
           "description": "爱奇艺车机版",
           "size": "57.38MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/爱奇艺车机版.png",
+          "icon": "icons/爱奇艺车机版.png",
           "url": "https://vip.123pan.cn/1832431089/13797715"
         },
         {
@@ -532,7 +532,7 @@
           "version": "V14.11.0",
           "description": "爱奇艺TV电视版",
           "size": "26.4MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/银河奇异果.png",
+          "icon": "icons/银河奇异果.png",
           "url": "https://app.iqiyi.com/lequ/20241126/qiyiguo_official14.11.0.apk"
         },
         {
@@ -540,7 +540,7 @@
           "version": "V5.1.1",
           "description": "爱奇艺儿童TV电视版",
           "size": "13.5MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/奇异果儿童版.png",
+          "icon": "icons/奇异果儿童版.png",
           "url": "https://app.iqiyi.com/lequ/20210209/Child-release-one-ertongguanwang-BN100718-tv5.1.1.312424_eb88ea-312424.apk"
         },
         {
@@ -548,7 +548,7 @@
           "version": "V3.4.3",
           "description": "腾讯视频 HD大屏版",
           "size": "26.69MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/腾讯视频HD.png",
+          "icon": "icons/腾讯视频HD.png",
           "url": "https://vip.123pan.cn/1832431089/7061014"
         },
         {
@@ -556,7 +556,7 @@
           "version": "V2.0.0.1166",
           "description": "腾讯视频_智慧屏，提取领克06车机渠道版",
           "size": "15.10MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/腾讯视频HD.png",
+          "icon": "icons/腾讯视频HD.png",
           "url": "https://vip.123pan.cn/1832431089/18077082"
         },
         {
@@ -564,7 +564,7 @@
           "version": "V16.9.0",
           "description": "腾讯视频 电视版",
           "size": "27.6MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/云视听极光.png",
+          "icon": "icons/云视听极光.png",
           "url": "https://vmat.gtimg.com/kt2/web/ktweb/protocol/202505151428015179_tv_video_16.9.0.1022_android_15000.apk"
         },
         {
@@ -572,7 +572,7 @@
           "version": "V2.7.0",
           "description": "哔哩哔哩官方车机版",
           "size": "23.9MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/哔哩哔哩.png",
+          "icon": "icons/哔哩哔哩.png",
           "url": "https://dl.hdslb.com/mobile/latest/android_bilithings_website/bilithings-master.apk?t=20241208&spm_id_from=333.47.b_646f776e6c6f61642d6c696e6b.8"
         },
         {
@@ -580,7 +580,7 @@
           "version": "V2.0.1",
           "description": "哔哩哔哩官方HD版",
           "size": "122MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/哔哩哔哩HD.webp",
+          "icon": "icons/哔哩哔哩HD.webp",
           "url": "https://dl.hdslb.com/mobile/latest/android_hd/iBiliPlayer-bili.apk?t=20241208&spm_id_from=333.47.b_646f776e6c6f61642d6c696e6b.7"
         },
         {
@@ -588,7 +588,7 @@
           "version": "V1.7.8",
           "description": "哔哩哔哩官方电视版",
           "size": "24.5MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/云视听小电视.png",
+          "icon": "icons/云视听小电视.png",
           "url": "https://dl.hdslb.com/mobile/latest/android_tv_yst/iBiliTV-master.apk?t=20250521&spm_id_from=333.47.b_646f776e6c6f61642d6c696e6b.5"
         },
         {
@@ -596,7 +596,7 @@
           "version": "V10.0.75",
           "description": "搜狐视频HD横屏版",
           "size": "154.37MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/搜狐视频HD.png",
+          "icon": "icons/搜狐视频HD.png",
           "url": "https://vip.123pan.cn/1832431089/14949765"
         },
         {
@@ -604,7 +604,7 @@
           "version": "V6.2.86",
           "description": "咪咕视频官方版",
           "size": "124.32MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/咪咕视频.png",
+          "icon": "icons/咪咕视频.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/22872375"
         },
         {
@@ -612,7 +612,7 @@
           "version": "V1.1.1",
           "description": "央视频HD横屏版",
           "size": "26.40MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/央视频HD.png",
+          "icon": "icons/央视频HD.png",
           "url": "https://vip.123pan.cn/1832431089/14948783"
         },
         {
@@ -620,7 +620,7 @@
           "version": "V7.0.0",
           "description": "央视频TV电视版",
           "size": "32.63MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/央视频TV.png",
+          "icon": "icons/央视频TV.png",
           "url": "https://vip.123pan.cn/1832431089/14948784"
         },
         {
@@ -628,7 +628,7 @@
           "version": "V9.9.2002",
           "description": "抖音短视频车机横屏版",
           "size": "31.0MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/抖音车机版.png",
+          "icon": "icons/抖音车机版.png",
           "url": "https://vip.123pan.cn/1832431089/7061035"
         },
         {
@@ -636,7 +636,7 @@
           "version": "V6.11.0",
           "description": "快手短视频横屏版",
           "size": "17.53MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/快手.png",
+          "icon": "icons/快手.png",
           "url": "https://vip.123pan.cn/1832431089/14945421"
         },
         {
@@ -644,7 +644,7 @@
           "version": "V4.0.3",
           "description": "抖音短剧免费看 去广告破解VIP版",
           "size": "34.83MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/抖音短剧.webp",
+          "icon": "icons/抖音短剧.webp",
           "url": "https://vip.123pan.cn/1832431089/7061045"
         },
         {
@@ -652,7 +652,7 @@
           "version": "V7.2.1.33",
           "description": "抖音短剧免费看 去广告破解VIP版",
           "size": "125.12MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/红果短剧.png",
+          "icon": "icons/红果短剧.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/27837074"
         },
         {
@@ -660,7 +660,7 @@
           "version": "V2.13.4",
           "description": "本地视频播放器 U盘视频 行车不受限制",
           "size": "44.95MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/MX 视频播放器.png",
+          "icon": "icons/MX 视频播放器.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/26666875"
         },
         {
@@ -668,7 +668,7 @@
           "version": "V3.7.1",
           "description": "本地视频播放器 支持悬浮窗画中画 U盘视频 行车不受限制",
           "size": "45.77MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/VLC 视频播放器.png",
+          "icon": "icons/VLC 视频播放器.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/26507104"
         },
         {
@@ -676,7 +676,7 @@
           "version": "V1.3.2",
           "description": "本地视频播放器 支持悬浮窗画中画 U盘视频 行车不受限制",
           "size": "22.93MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/myplayer 视频播放器.png",
+          "icon": "icons/myplayer 视频播放器.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/26753954"
         },
         {
@@ -684,7 +684,7 @@
           "version": "V1.4.3",
           "description": "央视 卫视 电视台直播",
           "size": "20.33MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/直播大全.png",
+          "icon": "icons/直播大全.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/28446378"
         },
         {
@@ -692,7 +692,7 @@
           "version": "V2.1.1",
           "description": "央视 卫视 电视台直播",
           "size": "2.71MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/WebView 电视.png",
+          "icon": "icons/WebView 电视.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/23295006"
         },
         {
@@ -700,7 +700,7 @@
           "version": "V1.0.6.0",
           "description": "央视 卫视 电视台直播",
           "size": "2.72MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/DongYuTvWeb.png",
+          "icon": "icons/DongYuTvWeb.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/23295005"
         },
         {
@@ -708,7 +708,7 @@
           "version": "V1.1.2",
           "description": "央视 卫视 电视台直播",
           "size": "8.01MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/千寻.png",
+          "icon": "icons/千寻.png",
           "url": "https://vip.123pan.cn/1832431089/17626980"
         },
         {
@@ -716,7 +716,7 @@
           "version": "V2.6.1",
           "description": "央视 卫视 电视台直播",
           "size": "46.29MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/小飞电视.png",
+          "icon": "icons/小飞电视.png",
           "url": "https://vip.123pan.cn/1832431089/10739041"
         },
         {
@@ -724,7 +724,7 @@
           "version": "V7.9.3",
           "description": "央视 卫视 电视台直播",
           "size": "76.08MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/央视影音HD.png",
+          "icon": "icons/央视影音HD.png",
           "url": "https://vip.123pan.cn/1832431089/7061020"
         },
         {
@@ -732,7 +732,7 @@
           "version": "V2.1.6",
           "description": "新疆维语视频播放器",
           "size": "38.22MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/Dilkan.png",
+          "icon": "icons/Dilkan.png",
           "url": "https://1832431089.cdn.123clouddisk.com/1832431089/33455116"
         }
       ]
@@ -745,7 +745,7 @@
           "version": "V3.3.4",
           "description": "百度CarLife_3.3.4车机端个人修改版",
           "size": "2.05MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/百度carlife.png",
+          "icon": "icons/百度carlife.png",
           "url": "https://vip.123pan.cn/1832431089/7061050"
         },
         {
@@ -753,7 +753,7 @@
           "version": "V2025.09.23",
           "description": "百度CarLife车机端_最新修改版，支持有线、无线、直连方式。",
           "size": "7.07MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/百度carlife_修改版.png",
+          "icon": "icons/百度carlife_修改版.png",
           "url": "https://vip.123pan.cn/1832431089/18225996"
         },
         {
@@ -761,7 +761,7 @@
           "version": "V6.7",
           "description": "亿连手机互联_车机版",
           "size": "25.06MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/亿连手机互联.png",
+          "icon": "icons/亿连手机互联.png",
           "url": "https://vip.123pan.cn/1832431089/7172955"
         },
         {
@@ -769,7 +769,7 @@
           "version": "官方版",
           "description": "车连易盒子官方驱动软件",
           "size": "9.42MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/车连易.png",
+          "icon": "icons/车连易.png",
           "url": "https://vip.123pan.cn/1832431089/7060994"
         },
         {
@@ -777,7 +777,7 @@
           "version": "公签版",
           "description": "埃安Y 埃安Splus 合创Z03 车连易盒子专用",
           "size": "9.42MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/车连易.png",
+          "icon": "icons/车连易.png",
           "url": "https://vip.123pan.cn/1832431089/8444196"
         },
         {
@@ -785,7 +785,7 @@
           "version": "官方版",
           "description": "君用盒子官方驱动软件",
           "size": "9.21MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/君用.png",
+          "icon": "icons/君用.png",
           "url": "https://vip.123pan.cn/1832431089/7061057"
         },
         {
@@ -793,7 +793,7 @@
           "version": "公签版",
           "description": "埃安Y 埃安Splus 合创Z03 君用盒子专用",
           "size": "8.25MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/君用.png",
+          "icon": "icons/君用.png",
           "url": "https://vip.123pan.cn/1832431089/10547775"
         },
         {
@@ -801,7 +801,7 @@
           "version": "V8.16.32",
           "description": "去广告破解版，局域网镜像投屏。",
           "size": "74.36MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/乐播投屏.png",
+          "icon": "icons/乐播投屏.png",
           "url": "https://vip.123pan.cn/1832431089/7061023"
         },
         {
@@ -809,7 +809,7 @@
           "version": "V1.4.0",
           "description": "可将苹果手机或电脑屏幕镜像实时投屏显示",
           "size": "5.17MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/橙子投屏.png",
+          "icon": "icons/橙子投屏.png",
           "url": "https://vip.123pan.cn/1832431089/7061059"
         },
         {
@@ -817,7 +817,7 @@
           "version": "V3.4.10",
           "description": "可将苹果手机或电脑屏幕镜像实时投屏显示",
           "size": "17.77MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/蓝莓投屏.png",
+          "icon": "icons/蓝莓投屏.png",
           "url": "https://vip.123pan.cn/1832431089/7061019"
         },
         {
@@ -825,7 +825,7 @@
           "version": "V2.4.8",
           "description": "华为手机屏幕镜像投屏显示并支持控制",
           "size": "51.21MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/当贝投屏.png",
+          "icon": "icons/当贝投屏.png",
           "url": "https://vip.123pan.cn/1832431089/8950275"
         },
         {
@@ -833,7 +833,7 @@
           "version": "V1.6.10",
           "description": "通用版安卓手机投屏车机多窗口独立控制",
           "size": "2.67MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/易控车机版.webp",
+          "icon": "icons/易控车机版.webp",
           "url": "https://vip.123pan.cn/1832431089/7061043"
         },
         {
@@ -841,7 +841,7 @@
           "version": "公签版",
           "description": "埃安Y 埃安Splus 合创Z03 专用，数据线直连手机投屏分屏。",
           "size": "2.67MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/易控车机版.webp",
+          "icon": "icons/易控车机版.webp",
           "url": "https://vip.123pan.cn/1832431089/8423727"
         },
         {
@@ -849,7 +849,7 @@
           "version": "V3.2.1",
           "description": "手机投屏分屏_车机通用版。",
           "size": "31.96MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/CarPlus车机版.png",
+          "icon": "icons/CarPlus车机版.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/25980448"
         },
         {
@@ -857,7 +857,7 @@
           "version": "V2.6.6",
           "description": "UID公签版_埃安Y、Splus 考拉 等,特定车型USB有线版。",
           "size": "36.06MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/CarPlus车机版.png",
+          "icon": "icons/CarPlus车机版.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/21692073"
         },
         {
@@ -865,7 +865,7 @@
           "version": "V1.2.10",
           "description": "小米手机互联专用软件_通用版",
           "size": "4.27MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/小米Carlink.png",
+          "icon": "icons/小米Carlink.png",
           "url": "https://vip.123pan.cn/1832431089/9432890"
         },
         {
@@ -873,7 +873,7 @@
           "version": "V1.0",
           "description": "小米手机互联专用软件_通用版",
           "size": "14.99MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/小米Carlink.png",
+          "icon": "icons/小米Carlink.png",
           "url": "https://vip.123pan.cn/1832431089/18047679"
         },
         {
@@ -881,7 +881,7 @@
           "version": "V1.0",
           "description": "小米手机互联专用软件_公签版",
           "size": "14.91MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/小米Carlink.png",
+          "icon": "icons/小米Carlink.png",
           "url": "https://vip.123pan.cn/1832431089/7060995"
         }
       ]
@@ -894,7 +894,7 @@
           "version": "二改版",
           "description": "虚拟Home键+返回键+菜单键，适用于菜单界面不显示第三方应用的车机。",
           "size": "5.82MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/阿辉虚拟键.png",
+          "icon": "icons/阿辉虚拟键.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/26478396"
         },
         {
@@ -902,7 +902,7 @@
           "version": "V1.7.5",
           "description": "屏幕悬浮虚拟小白点_(返回键/后退键)辅助功能",
           "size": "1MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/简悬浮.png",
+          "icon": "icons/简悬浮.png",
           "url": "https://vip.123pan.cn/1832431089/7061010"
         },
         {
@@ -910,7 +910,7 @@
           "version": "公签版",
           "description": "定期清理缓存垃圾有助于车机流畅性以及防止车机内存满了之后自动恢复出厂设置",
           "size": "2.91MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/一键清理.png",
+          "icon": "icons/一键清理.png",
           "url": "https://vip.123pan.cn/1832431089/9492301"
         },
         {
@@ -918,7 +918,7 @@
           "version": "通用版",
           "description": "定期清理缓存垃圾有助于车机流畅性以及防止车机内存满了之后自动恢复出厂设置",
           "size": "2.91MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/一键清理.png",
+          "icon": "icons/一键清理.png",
           "url": "https://vip.123pan.cn/1832431089/9488459"
         },
         {
@@ -926,7 +926,7 @@
           "version": "V1.0",
           "description": "手动调节仪表投屏画面边距",
           "size": "4.64MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/仪表边距调整.png",
+          "icon": "icons/仪表边距调整.png",
           "url": "https://vip.123pan.cn/1832431089/13422293"
         },
         {
@@ -934,7 +934,7 @@
           "version": "V1.0",
           "description": "一键重启车机快捷键",
           "size": "1.64MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/一键重启.png",
+          "icon": "icons/一键重启.png",
           "url": "https://vip.123pan.cn/1832431089/13418149"
         },
         {
@@ -942,7 +942,7 @@
           "version": "V1.3.1",
           "description": "手机与车机连接调试使用的应用工具",
           "size": "5.61MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/甲壳虫ADB助手.png",
+          "icon": "icons/甲壳虫ADB助手.png",
           "url": "https://vip.123pan.cn/1832431089/7061004"
         },
         {
@@ -950,7 +950,7 @@
           "version": "V1.0.45",
           "description": "强制开启应用的悬浮窗、允许安装，等权限。",
           "size": "1.37MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/权限狗.png",
+          "icon": "icons/权限狗.png",
           "url": "https://vip.123pan.cn/1832431089/7061005"
         },
         {
@@ -958,7 +958,7 @@
           "version": "V12",
           "description": "强制开启应用的无障碍服务权限",
           "size": "61kb",
-          "icon": "https://app.ahcjzs.cn/app/icon/无障碍管理.png",
+          "icon": "icons/无障碍管理.png",
           "url": "https://vip.123pan.cn/1832431089/7061003"
         },
         {
@@ -966,7 +966,7 @@
           "version": "V348",
           "description": "实现自定义应用隐藏状态栏、导航栏",
           "size": "7.31MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/系统界面调节器.png",
+          "icon": "icons/系统界面调节器.png",
           "url": "https://vip.123pan.cn/1832431089/7061009"
         },
         {
@@ -974,7 +974,7 @@
           "version": "V13.5.5",
           "description": "xx",
           "size": "3.36MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/shizuku.png",
+          "icon": "icons/shizuku.png",
           "url": "https://vip.123pan.cn/1832431089/12645265"
         },
         {
@@ -982,7 +982,7 @@
           "version": "V1.0",
           "description": "侧边滑动快捷键/快捷方式",
           "size": "290kb",
-          "icon": "https://app.ahcjzs.cn/app/icon/侧边栏.png",
+          "icon": "icons/侧边栏.png",
           "url": "https://vip.123pan.cn/1832431089/7061013"
         },
         {
@@ -990,7 +990,7 @@
           "version": "V1.0",
           "description": "返回键 Home键 任务栏 双侧边滑动快捷键",
           "size": "1.42MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/SideBar侧边栏.png",
+          "icon": "icons/SideBar侧边栏.png",
           "url": "https://vip.123pan.cn/1832431089/7061016"
         },
         {
@@ -998,7 +998,7 @@
           "version": "阿辉汉化版",
           "description": "播放音乐时会在屏幕底部显示频谱动态旋律（需要开启悬浮窗权限）",
           "size": "4.51MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/阿辉音乐频谱.png",
+          "icon": "icons/阿辉音乐频谱.png",
           "url": "https://vip.123pan.cn/1832431089/14115535"
         },
         {
@@ -1006,7 +1006,7 @@
           "version": "V1.7.3.0",
           "description": "播放音乐时会在屏幕周围显示频谱动态旋律（需要开启悬浮窗权限）",
           "size": "19.98MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/Muviz Edge.png",
+          "icon": "icons/Muviz Edge.png",
           "url": "https://1832431089.cdn.123clouddisk.com/1832431089/33481112"
         },
         {
@@ -1014,7 +1014,7 @@
           "version": "V2.6.0",
           "description": "修改方向盘多功能按键",
           "size": "5.23MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/按键映射器.png",
+          "icon": "icons/按键映射器.png",
           "url": "https://vip.123pan.cn/1832431089/7061052"
         },
         {
@@ -1022,7 +1022,7 @@
           "version": "V3.7",
           "description": "开机自启动管理器",
           "size": "392kb",
-          "icon": "https://app.ahcjzs.cn/app/icon/启动项管理器.png",
+          "icon": "icons/启动项管理器.png",
           "url": "https://vip.123pan.cn/1832431089/7061053"
         },
         {
@@ -1030,7 +1030,7 @@
           "version": "V22",
           "description": "竖屏显示的应用可设置强制横屏",
           "size": "66.53Kb",
-          "icon": "https://app.ahcjzs.cn/app/icon/方向控制.png",
+          "icon": "icons/方向控制.png",
           "url": "https://vip.123pan.cn/1832431089/9454380"
         },
         {
@@ -1038,7 +1038,7 @@
           "version": "V2.9.0",
           "description": "竖屏显示的应用可设置强制横屏",
           "size": "2.21MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/强制横屏.png",
+          "icon": "icons/强制横屏.png",
           "url": "https://vip.123pan.cn/1832431089/7061038"
         },
         {
@@ -1046,7 +1046,7 @@
           "version": "V6.0.0",
           "description": "竖屏显示的应用可设置强制横屏",
           "size": "1.53MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/横屏旋转.png",
+          "icon": "icons/横屏旋转.png",
           "url": "https://vip.123pan.cn/1832431089/7061031"
         },
         {
@@ -1054,7 +1054,7 @@
           "version": "V1.0",
           "description": "原车WIFI调取快捷键",
           "size": "10.86kb",
-          "icon": "https://app.ahcjzs.cn/app/icon/WIFI.png",
+          "icon": "icons/WIFI.png",
           "url": "https://vip.123pan.cn/1832431089/7297824"
         },
         {
@@ -1062,7 +1062,7 @@
           "version": "V2.4.0",
           "description": "高精GPS定位 实时位置 指南针 海拔 速度 气压 经纬度",
           "size": "285kb",
-          "icon": "https://app.ahcjzs.cn/app/icon/指南针.png",
+          "icon": "icons/指南针.png",
           "url": "https://vip.123pan.cn/1832431089/7061012"
         },
         {
@@ -1070,7 +1070,7 @@
           "version": "V2.0",
           "description": "查看应用包名",
           "size": "393kb",
-          "icon": "https://app.ahcjzs.cn/app/icon/包名查看器.png",
+          "icon": "icons/包名查看器.png",
           "url": "https://vip.123pan.cn/1832431089/7061036"
         },
         {
@@ -1078,7 +1078,7 @@
           "version": "V1.7.1",
           "description": "网速流量监测悬浮窗",
           "size": "51.45kb",
-          "icon": "https://app.ahcjzs.cn/app/icon/网速流量监测.png",
+          "icon": "icons/网速流量监测.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/21434239"
         },
         {
@@ -1086,7 +1086,7 @@
           "version": "V1.2.3",
           "description": "ProxyPin局域网抓包工具",
           "size": "14.17MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/ProxyPin.png",
+          "icon": "icons/ProxyPin.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/23990570"
         },
         {
@@ -1094,7 +1094,7 @@
           "version": "V1.2.8",
           "description": "网约车打表器_1.2.8",
           "size": "23.69MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/出租车打表器.png",
+          "icon": "icons/出租车打表器.png",
           "url": "https://vip.123pan.cn/1832431089/7061027"
         },
         {
@@ -1102,7 +1102,7 @@
           "version": "V1.8.1",
           "description": "应用管家_官方原版1.8.1公签UID版",
           "size": "14.86MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/应用管家.png",
+          "icon": "icons/应用管家.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/19667265"
         },
         {
@@ -1110,7 +1110,7 @@
           "version": "V1.8.1",
           "description": "首选公签UID版，如安装不上则安装这个。",
           "size": "14.86MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/应用管家.png",
+          "icon": "icons/应用管家.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/19667266"
         },
         {
@@ -1118,7 +1118,7 @@
           "version": "V2.5.8.251013",
           "description": "可单独显示红绿灯倒计时的悬浮窗",
           "size": "12.05MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/红绿灯路况.png",
+          "icon": "icons/红绿灯路况.png",
           "url": "https://vip.123pan.cn/1832431089/18334240"
         }
       ]
@@ -1131,7 +1131,7 @@
           "version": "V1.1.85",
           "description": "仅适用于老款车机显示桌面地图插件的作用",
           "size": "16.14MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/插件.png",
+          "icon": "icons/插件.png",
           "url": "https://vip.123pan.cn/1832431089/13784538"
         },
         {
@@ -1139,7 +1139,7 @@
           "version": "V1.0.38",
           "description": "仅适用于19-21款传祺GS4的转向自启用360全景作用",
           "size": "2.84MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/插件.png",
+          "icon": "icons/插件.png",
           "url": "https://vip.123pan.cn/1832431089/13784525"
         },
         {
@@ -1147,7 +1147,7 @@
           "version": "V4.3.79",
           "description": "适用于19-21款传祺埃安原车机的百度CarLife升级覆盖全屏显示作用",
           "size": "3.89MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/插件.png",
+          "icon": "icons/插件.png",
           "url": "https://vip.123pan.cn/1832431089/13784488"
         },
         {
@@ -1155,7 +1155,7 @@
           "version": "V1.2",
           "description": "仅适用于18-21年老款传祺埃安车机，作为程序快捷启动和卸载。",
           "size": "4.03MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/程序及卸载.png",
+          "icon": "icons/程序及卸载.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/20428927"
         },
         {
@@ -1163,7 +1163,7 @@
           "version": "V1.0.0",
           "description": "仅适用于老款传祺埃安车机的传祺解锁工具",
           "size": "2.81MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/传祺解锁工具.png",
+          "icon": "icons/传祺解锁工具.png",
           "url": "https://vip.123pan.cn/1832431089/13784540"
         },
         {
@@ -1171,7 +1171,7 @@
           "version": "V1.0",
           "description": "手动调节仪表投屏画面边距",
           "size": "4.64MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/仪表边距调整.png",
+          "icon": "icons/仪表边距调整.png",
           "url": "https://vip.123pan.cn/1832431089/13422293"
         },
         {
@@ -1179,7 +1179,7 @@
           "version": "4.0.0",
           "description": "传祺22款GS4专用升级替换原车百度CarLife无线版",
           "size": "传祺22款GS4",
-          "icon": "https://app.ahcjzs.cn/app/icon/百度carlife.png",
+          "icon": "icons/百度carlife.png",
           "url": "https://vip.123pan.cn/1832431089/12514712"
         },
         {
@@ -1187,7 +1187,7 @@
           "version": "4.0.0",
           "description": "传祺GS4plus专用升级替换原车百度CarLife无线版",
           "size": "传祺GS4plus",
-          "icon": "https://app.ahcjzs.cn/app/icon/百度carlife.png",
+          "icon": "icons/百度carlife.png",
           "url": "https://vip.123pan.cn/1832431089/12514740"
         },
         {
@@ -1195,7 +1195,7 @@
           "version": "4.0.0",
           "description": "埃安Y/Splus专用升级替换原车百度CarLife无线版",
           "size": "埃安Y/Splus",
-          "icon": "https://app.ahcjzs.cn/app/icon/百度carlife.png",
+          "icon": "icons/百度carlife.png",
           "url": "https://vip.123pan.cn/1832431089/12514929"
         },
         {
@@ -1203,7 +1203,7 @@
           "version": "共存版",
           "description": "xx",
           "size": "",
-          "icon": "https://app.ahcjzs.cn/app/icon/百度carlife.png",
+          "icon": "icons/百度carlife.png",
           "url": "https://vip.123pan.cn/1832431089/12491374"
         },
         {
@@ -1219,7 +1219,7 @@
           "version": "Splus全系通用",
           "description": "埃安Splus专用，其他车型切勿下载安装。<br>来源作者：橙派Pie",
           "size": "",
-          "icon": "https://app.ahcjzs.cn/app/icon/隐藏语音助手.png",
+          "icon": "icons/隐藏语音助手.png",
           "url": "https://vip.123pan.cn/1832431089/10692770"
         },
         {
@@ -1227,7 +1227,7 @@
           "version": "版本_2.0 20211206",
           "description": "埃安Y专用，请对应原版本号下载安装。其他车型切勿下载！来源作者：橙派Pie",
           "size": "",
-          "icon": "https://app.ahcjzs.cn/app/icon/隐藏语音助手.png",
+          "icon": "icons/隐藏语音助手.png",
           "url": "https://vip.123pan.cn/1832431089/10926821"
         },
         {
@@ -1235,7 +1235,7 @@
           "version": "版本_2.0 20220330",
           "description": "埃安Y专用，请对应原版本号下载安装。其他车型切勿下载！来源作者：橙派Pie",
           "size": "",
-          "icon": "https://app.ahcjzs.cn/app/icon/隐藏语音助手.png",
+          "icon": "icons/隐藏语音助手.png",
           "url": "https://vip.123pan.cn/1832431089/10926820"
         },
         {
@@ -1243,7 +1243,7 @@
           "version": "版本_2.0 20221222",
           "description": "埃安Y专用，请对应原版本号下载安装。其他车型切勿下载！来源作者：橙派Pie",
           "size": "",
-          "icon": "https://app.ahcjzs.cn/app/icon/隐藏语音助手.png",
+          "icon": "icons/隐藏语音助手.png",
           "url": "https://vip.123pan.cn/1832431089/10926824"
         },
         {
@@ -1251,7 +1251,7 @@
           "version": "版本_2.0 20230708",
           "description": "埃安Y专用，请对应原版本号下载安装。其他车型切勿下载！来源作者：橙派Pie",
           "size": "",
-          "icon": "https://app.ahcjzs.cn/app/icon/隐藏语音助手.png",
+          "icon": "icons/隐藏语音助手.png",
           "url": "https://vip.123pan.cn/1832431089/10926823"
         },
         {
@@ -1259,7 +1259,7 @@
           "version": "橙派Pie",
           "description": "仅适用于埃安Y/Splus替换原车导航栏增加返回键，下载安装完成后长按方向盘的拨号键重启后生效。 <br>原作者：橙派Pie，阿辉二改版",
           "size": "13.72MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/埃安返回键.png",
+          "icon": "icons/埃安返回键.png",
           "url": "https://vip.123pan.cn/1832431089/18072580"
         }
       ]
@@ -1272,7 +1272,7 @@
           "version": "V1.0.3",
           "description": "当贝市场_车机版应用商店",
           "size": "5.79MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/当贝市场_车机版.png",
+          "icon": "icons/当贝市场_车机版.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/23992266"
         },
         {
@@ -1280,7 +1280,7 @@
           "version": "V6.0.6",
           "description": "当贝市场_电视版应用商店",
           "size": "9.73MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/当贝市场_电视版.png",
+          "icon": "icons/当贝市场_电视版.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/23992267"
         },
         {
@@ -1288,7 +1288,7 @@
           "version": "V3.0",
           "description": "新疆维语专用应用商店",
           "size": "3.47MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/Dilkuy应用市场.png",
+          "icon": "icons/Dilkuy应用市场.png",
           "url": "https://1832431089.cdn.123clouddisk.com/1832431089/33568428"
         },
         {
@@ -1296,7 +1296,7 @@
           "version": "V2.1.2",
           "description": "布丁UI车机桌面主题壁纸",
           "size": "46.5MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/布丁UI.webp",
+          "icon": "icons/布丁UI.webp",
           "url": "https://assets.autoshafa.com/apk/buding_002480afe7a340db76ea84f83824960a_2.1.2.apk"
         },
         {
@@ -1304,7 +1304,7 @@
           "version": "V1.0.2",
           "description": "极速版适用于Android4.0系统 性能略差的车机使用",
           "size": "23.97MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/布丁UI极速版.png",
+          "icon": "icons/布丁UI极速版.png",
           "url": "https://assets.autoshafa.com/apk/buding_bece53692609e838da3cd8e2d5cd9999_1.0.2.v4_V4webwww.apk"
         },
         {
@@ -1312,7 +1312,7 @@
           "version": "V1.2.1",
           "description": "氢桌面车机桌面主题壁纸，仿苹果CarPlay界面。",
           "size": "11.22MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/氢桌面.png",
+          "icon": "icons/氢桌面.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/20429440"
         },
         {
@@ -1320,7 +1320,7 @@
           "version": "V画中画公签版",
           "description": "氢桌面车机桌面主题壁纸，仿苹果CarPlay界面。",
           "size": "10.42MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/氢桌面.png",
+          "icon": "icons/氢桌面.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/20429439"
         },
         {
@@ -1328,7 +1328,7 @@
           "version": "V1.6.7",
           "description": "乐酷桌面车机主题壁纸，仿百度CarLife界面。",
           "size": "6.67MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/乐酷桌面.png",
+          "icon": "icons/乐酷桌面.png",
           "url": "https://vip.123pan.cn/1832431089/7271368"
         },
         {
@@ -1336,7 +1336,7 @@
           "version": "V3.1.1",
           "description": "智车桌面车机主题壁纸",
           "size": "38.82MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/智车桌面.png",
+          "icon": "icons/智车桌面.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/24736175"
         },
         {
@@ -1344,7 +1344,7 @@
           "version": "V1.0.9.0",
           "description": "桌面主题精简版_特别适用于大屏电视",
           "size": "14.71MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/Emotn UI.png",
+          "icon": "icons/Emotn UI.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/28305198"
         },
         {
@@ -1352,7 +1352,7 @@
           "version": "V9.2.66",
           "description": "腾讯QQ 64位 登录第三方程序使用",
           "size": "381.96MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/QQ.png",
+          "icon": "icons/QQ.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/22110436"
         },
         {
@@ -1360,7 +1360,7 @@
           "version": "V8.8.90",
           "description": "腾讯QQ 32位 登录第三方程序使用",
           "size": "288.43MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/QQ.png",
+          "icon": "icons/QQ.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/22110435"
         },
         {
@@ -1368,7 +1368,7 @@
           "version": "V8.035",
           "description": "腾讯欢乐斗地主，真人在线斗地主。",
           "size": "388.25MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/欢乐斗地主.png",
+          "icon": "icons/欢乐斗地主.png",
           "url": "https://vip.123pan.cn/1832431089/12750768"
         },
         {
@@ -1376,7 +1376,7 @@
           "version": "V2.4.5",
           "description": "在线斗地主",
           "size": "50.19MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/有乐斗地主.png",
+          "icon": "icons/有乐斗地主.png",
           "url": "https://vip.123pan.cn/1832431089/7061029"
         },
         {
@@ -1384,7 +1384,7 @@
           "version": "V4.21.02",
           "description": "在线斗地主",
           "size": "51.68MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/JJ斗地主.png",
+          "icon": "icons/JJ斗地主.png",
           "url": "https://vip.123pan.cn/1832431089/7223753"
         },
         {
@@ -1392,7 +1392,7 @@
           "version": "V1.0.8",
           "description": "在线麻将",
           "size": "93.77MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/悦美麻将.png",
+          "icon": "icons/悦美麻将.png",
           "url": "https://vip.123pan.cn/1832431089/7061060"
         },
         {
@@ -1400,7 +1400,7 @@
           "version": "V3.7.9",
           "description": "全民象棋_3.7.9",
           "size": "82.58MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/全民象棋.png",
+          "icon": "icons/全民象棋.png",
           "url": "https://vip.123pan.cn/1832431089/7224275"
         },
         {
@@ -1408,7 +1408,7 @@
           "version": "V5.7.8",
           "description": "全民K歌_5.7.8",
           "size": "36.50MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/全民K歌.png",
+          "icon": "icons/全民K歌.png",
           "url": "https://vip.123pan.cn/1832431089/7072891"
         },
         {
@@ -1416,7 +1416,7 @@
           "version": "V2.7.8",
           "description": "金麦客专业K歌",
           "size": "24.48MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/金麦客专业K歌.png",
+          "icon": "icons/金麦客专业K歌.png",
           "url": "https://vip.123pan.cn/1832431089/7072892"
         },
         {
@@ -1424,7 +1424,7 @@
           "version": "V3.1.11",
           "description": "开唛K歌_3.1.11",
           "size": "47.05MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/开唛K歌.png",
+          "icon": "icons/开唛K歌.png",
           "url": "https://vip.123pan.cn/1832431089/7223831"
         },
         {
@@ -1432,7 +1432,7 @@
           "version": "V50.0.0",
           "description": "I KTV（旧版免更新破解版）",
           "size": "82.21MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/KTV.png",
+          "icon": "icons/KTV.png",
           "url": "https://vip.123pan.cn/1832431089/9276494"
         },
         {
@@ -1440,7 +1440,7 @@
           "version": "V60.0.0",
           "description": "I KTV（官方最新版本新UI界面）",
           "size": "88.89MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/KTV.png",
+          "icon": "icons/KTV.png",
           "url": "https://vip.123pan.cn/1832431089/9276495"
         },
         {
@@ -1448,7 +1448,7 @@
           "version": "V2.2.4",
           "description": "车载KTV_2.2.4",
           "size": "16.39MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/车载KTV.png",
+          "icon": "icons/车载KTV.png",
           "url": "https://vip.123pan.cn/1832431089/7276833"
         },
         {
@@ -1456,7 +1456,7 @@
           "version": "V3.24.09",
           "description": "随畅KTV_3.24.09",
           "size": "42.52MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/随畅KTV.png",
+          "icon": "icons/随畅KTV.png",
           "url": "https://vip.123pan.cn/1832431089/14098292"
         },
         {
@@ -1464,7 +1464,7 @@
           "version": "V2.8.0",
           "description": "可通过U盘安装自备apk软件，也可使用手机同一局域网推送安装。",
           "size": "5.75MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/小白文件管理器.png",
+          "icon": "icons/小白文件管理器.png",
           "url": "https://vip.123pan.cn/1832431089/8423941"
         },
         {
@@ -1472,7 +1472,7 @@
           "version": "公签版",
           "description": "埃安Y 埃安Splus 合创Z03 专用，可通过U盘安装自备apk软件，也可使用手机同一局域网推送安装。",
           "size": "5.76MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/小白文件管理器.png",
+          "icon": "icons/小白文件管理器.png",
           "url": "https://vip.123pan.cn/1832431089/8541893"
         },
         {
@@ -1480,7 +1480,7 @@
           "version": "V4.2.2",
           "description": "可通过U盘安装自备apk软件，也可使用手机同一局域网推送安装。",
           "size": "5.97MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/文件闪传.png",
+          "icon": "icons/文件闪传.png",
           "url": "https://vip.123pan.cn/1832431089/7171190"
         },
         {
@@ -1488,7 +1488,7 @@
           "version": "V4.4.0",
           "description": "ES文件浏览器_破解VIP版",
           "size": "54.21MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/ES文件浏览器.png",
+          "icon": "icons/ES文件浏览器.png",
           "url": "https://vip.123pan.cn/1832431089/7061028"
         },
         {
@@ -1496,7 +1496,7 @@
           "version": "V1.7.4",
           "description": "本地文件管理器简洁版",
           "size": "11.56MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/质感文件.png",
+          "icon": "icons/质感文件.png",
           "url": "https://vip.123pan.cn/1832431089/7294957"
         },
         {
@@ -1504,7 +1504,7 @@
           "version": "V2.17.3",
           "description": "MT文件管理器_get28版",
           "size": "20.25MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/MT管理器.png",
+          "icon": "icons/MT管理器.png",
           "url": "https://vip.123pan.cn/1832431089/10033226"
         },
         {
@@ -1512,7 +1512,7 @@
           "version": "V5.0.3",
           "description": "X浏览器_车机版",
           "size": "1.86MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/X浏览器.png",
+          "icon": "icons/X浏览器.png",
           "url": "https://vip.123pan.cn/1832431089/10653741"
         },
         {
@@ -1520,7 +1520,7 @@
           "version": "V9.9.701",
           "description": "小米旗下智能家庭品牌，实现智能设备之间的互联互通。",
           "size": "126.70MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/米家.png",
+          "icon": "icons/米家.png",
           "url": "https://vip.123pan.cn/1832431089/8127430"
         },
         {
@@ -1528,7 +1528,7 @@
           "version": "V1.0.5",
           "description": "盯盯拍行车记录仪",
           "size": "28.04MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/盯盯拍.png",
+          "icon": "icons/盯盯拍.png",
           "url": "https://vip.123pan.cn/1832431089/8443078"
         },
         {
@@ -1536,7 +1536,7 @@
           "version": "V4.1.1567",
           "description": "讯飞输入法Pad版支持语音控制输入",
           "size": "8.71MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/讯飞输入法Pad版.png",
+          "icon": "icons/讯飞输入法Pad版.png",
           "url": "https://vip.123pan.cn/1832431089/9622388"
         },
         {
@@ -1544,7 +1544,7 @@
           "version": "V4.0.5.915",
           "description": "百度输入法电视版_支持笔画输入",
           "size": "10.12MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/百度输入法TV版.png",
+          "icon": "icons/百度输入法TV版.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/28283847"
         },
         {
@@ -1552,7 +1552,7 @@
           "version": "V3.01.01",
           "description": "同花顺 HD横屏版 炒股软件",
           "size": "2.4.0MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/同花顺HD.png",
+          "icon": "icons/同花顺HD.png",
           "url": "https://vip.123pan.cn/1832431089/18334267"
         },
         {
@@ -1560,7 +1560,7 @@
           "version": "V5.4",
           "description": "东方富通 HD横屏版 炒股软件",
           "size": "8.64MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/东方富通HD.png",
+          "icon": "icons/东方富通HD.png",
           "url": "https://vip.123pan.cn/1832431089/18334266"
         },
         {
@@ -1568,7 +1568,7 @@
           "version": "V13.6.0",
           "description": "向日葵远程控制控制端",
           "size": "119.39MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/向日葵控制端.png",
+          "icon": "icons/向日葵控制端.png",
           "url": "https://vip.123pan.cn/1832431089/7061008"
         },
         {
@@ -1576,7 +1576,7 @@
           "version": "V4.7.2",
           "description": "ToDesk远程控制控制端",
           "size": "62.95MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/ToDesk.png",
+          "icon": "icons/ToDesk.png",
           "url": "https://vip.123pan.cn/1832431089/7061017"
         }
       ]
@@ -1589,7 +1589,7 @@
           "version": "V3.2",
           "description": "更新内容：增加新版本检测 推送升级 <br>升级说明：请根据屏幕右上角显示的当前版本，选择相对应的下载安装即可！ <br>更新时间：2026/05/03",
           "size": "13.75MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/阿辉应用管家.ico",
+          "icon": "icons/阿辉应用管家.ico",
           "url": "https://1832431089.v.123pan.cn/1832431089/25670863"
         }
       ]
@@ -1602,7 +1602,7 @@
           "version": "测试版应用不作为最终版",
           "description": "测试专用下载链接，不知情的情况下切勿私自下载安装。",
           "size": "",
-          "icon": "https://app.ahcjzs.cn/app/icon/测试.png",
+          "icon": "icons/测试.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/25689036"
         },
         {
@@ -1610,7 +1610,7 @@
           "version": "V3.2",
           "description": "测试专用下载链接，不知情的情况下切勿私自下载安装。",
           "size": "13.75MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/测试.png",
+          "icon": "icons/测试.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/25670863"
         },
         {
@@ -1618,7 +1618,7 @@
           "version": "V3.2",
           "description": "测试专用下载链接，不知情的情况下切勿私自下载安装。",
           "size": "13.75MB",
-          "icon": "https://app.ahcjzs.cn/app/icon/测试.png",
+          "icon": "icons/测试.png",
           "url": "https://1832431089.v.123pan.cn/1832431089/27670971"
         }
       ]

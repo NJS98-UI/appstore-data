@@ -27,7 +27,7 @@ jobs:
         run: |
           git config user.name "MCity Bot"
           git config user.email "dev@mcity.com"
-          CHANGED=$(git status --porcelain | grep -E "appstore\.json|latest_author\.json" || true)
+          CHANGED=$(git status --porcelain | grep -E "appstore\.json|latest_author\.json|icons/" || true)
           if [ -n "$CHANGED" ]; then
             COUNT=$(python3 -c "
 import json
@@ -37,6 +37,7 @@ print(sum(len(c['apps']) for c in d['categories']))
 ")
             git add appstore.json
             git add -f docs/latest_author.json
+            git add -A icons/
             git commit -m "sync: 同步作者商店更新 $(TZ=Asia/Shanghai date +%Y-%m-%d\ %H:%M) (共${COUNT}个应用)"
             git push origin main
             echo "已同步"

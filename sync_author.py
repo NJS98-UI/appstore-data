@@ -136,6 +136,11 @@ def main():
     new_total = sum(len(c["apps"]) for c in new_data["categories"])
     print(f"解析到 {new_total} 个应用")
 
+    download_icons(new_data)
+    if new_data["categories"]:
+        # 只有图标路径变化但数据没变时，也要更新文件
+        pass
+
     old_data = None
     if os.path.exists(DATA_JSON):
         with open(DATA_JSON, "r", encoding="utf-8") as f:
@@ -185,6 +190,44 @@ def write_snapshot(data):
             json.dump(snapshot, f, ensure_ascii=False, indent=2)
     except Exception as e:
         print(f"保存快照失败: {e}")
+
+
+def download_icons(data):
+    import urllib.parse
+    icons_dir = "icons"
+    os.makedirs(icons_dir, exist_ok=True)
+    existing = set(os.listdir(icons_dir))
+    downloaded = 0
+    for cat in data["categories"]:
+        for app in cat["apps"]:
+            url = app.get("icon", "")
+            if not url or url.startswith("icons/"):
+                continue
+            m = re.search(r"/app/icon/(.+)$", url)
+            if not m:
+                continue
+            fname = re.sub(r'[\\/:*?"<>|]', "_", m.group(1))
+            target = os.path.join(icons_dir, fname)
+            if fname in existing and os.path.isfile(target):
+                app["icon"] = "icons/" + fname
+                continue
+            try:
+                parsed = urllib.parse.urlparse(url)
+                encoded_path = urllib.parse.quote(parsed.path, safe='/:@!$&\'()*+,;=-._~')
+                encoded_url = urllib.parse.urlunparse(parsed._replace(path=encoded_path))
+                req = urllib.request.Request(encoded_url, headers={"User-Agent": "Mozilla/5.0", "Referer": "https://app.ahcjzs.cn/"})
+                with urllib.request.urlopen(req, timeout=20) as r:
+                    raw = r.read()
+                if len(raw) >= 50:
+                    with open(target, "wb") as f:
+                        f.write(raw)
+                    app["icon"] = "icons/" + fname
+                    downloaded += 1
+                    existing.add(fname)
+            except Exception as e:
+                print(f"  图标下载失败: {url} -> {e}")
+    if downloaded > 0:
+        print(f"下载新图标: {downloaded} 个")
 
 
 if __name__ == "__main__":
